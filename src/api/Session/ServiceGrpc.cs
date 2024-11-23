@@ -18,15 +18,15 @@ namespace EpicChain.API.v2.Session {
   {
     static readonly string __ServiceName = "EpicChain.fs.v2.session.SessionService";
 
-    static readonly grpc::Marshaller<global::EpicChain.API.v2.Session.CreateRequest> __Marshaller_neo_fs_v2_session_CreateRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::EpicChain.API.v2.Session.CreateRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::EpicChain.API.v2.Session.CreateResponse> __Marshaller_neo_fs_v2_session_CreateResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::EpicChain.API.v2.Session.CreateResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::EpicChain.API.v2.Session.CreateRequest> __Marshaller_epicchain_v2_session_CreateRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::EpicChain.API.v2.Session.CreateRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::EpicChain.API.v2.Session.CreateResponse> __Marshaller_epicchain_v2_session_CreateResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::EpicChain.API.v2.Session.CreateResponse.Parser.ParseFrom);
 
     static readonly grpc::Method<global::EpicChain.API.v2.Session.CreateRequest, global::EpicChain.API.v2.Session.CreateResponse> __Method_Create = new grpc::Method<global::EpicChain.API.v2.Session.CreateRequest, global::EpicChain.API.v2.Session.CreateResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
         "Create",
-        __Marshaller_neo_fs_v2_session_CreateRequest,
-        __Marshaller_neo_fs_v2_session_CreateResponse);
+        __Marshaller_epicchain_v2_session_CreateRequest,
+        __Marshaller_epicchain_v2_session_CreateResponse);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor

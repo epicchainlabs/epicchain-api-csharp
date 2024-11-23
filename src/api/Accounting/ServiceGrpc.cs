@@ -19,15 +19,15 @@ namespace EpicChain.API.v2.Accounting {
   {
     static readonly string __ServiceName = "EpicChain.fs.v2.accounting.AccountingService";
 
-    static readonly grpc::Marshaller<global::EpicChain.API.v2.Accounting.BalanceRequest> __Marshaller_neo_fs_v2_accounting_BalanceRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::EpicChain.API.v2.Accounting.BalanceRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::EpicChain.API.v2.Accounting.BalanceResponse> __Marshaller_neo_fs_v2_accounting_BalanceResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::EpicChain.API.v2.Accounting.BalanceResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::EpicChain.API.v2.Accounting.BalanceRequest> __Marshaller_epicchain_v2_accounting_BalanceRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::EpicChain.API.v2.Accounting.BalanceRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::EpicChain.API.v2.Accounting.BalanceResponse> __Marshaller_epicchain_v2_accounting_BalanceResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::EpicChain.API.v2.Accounting.BalanceResponse.Parser.ParseFrom);
 
     static readonly grpc::Method<global::EpicChain.API.v2.Accounting.BalanceRequest, global::EpicChain.API.v2.Accounting.BalanceResponse> __Method_Balance = new grpc::Method<global::EpicChain.API.v2.Accounting.BalanceRequest, global::EpicChain.API.v2.Accounting.BalanceResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
         "Balance",
-        __Marshaller_neo_fs_v2_accounting_BalanceRequest,
-        __Marshaller_neo_fs_v2_accounting_BalanceResponse);
+        __Marshaller_epicchain_v2_accounting_BalanceRequest,
+        __Marshaller_epicchain_v2_accounting_BalanceResponse);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor

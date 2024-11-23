@@ -18,69 +18,69 @@ namespace EpicChain.API.v2.Container {
   {
     static readonly string __ServiceName = "EpicChain.fs.v2.container.ContainerService";
 
-    static readonly grpc::Marshaller<global::EpicChain.API.v2.Container.PutRequest> __Marshaller_neo_fs_v2_container_PutRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::EpicChain.API.v2.Container.PutRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::EpicChain.API.v2.Container.PutResponse> __Marshaller_neo_fs_v2_container_PutResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::EpicChain.API.v2.Container.PutResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::EpicChain.API.v2.Container.DeleteRequest> __Marshaller_neo_fs_v2_container_DeleteRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::EpicChain.API.v2.Container.DeleteRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::EpicChain.API.v2.Container.DeleteResponse> __Marshaller_neo_fs_v2_container_DeleteResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::EpicChain.API.v2.Container.DeleteResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::EpicChain.API.v2.Container.GetRequest> __Marshaller_neo_fs_v2_container_GetRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::EpicChain.API.v2.Container.GetRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::EpicChain.API.v2.Container.GetResponse> __Marshaller_neo_fs_v2_container_GetResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::EpicChain.API.v2.Container.GetResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::EpicChain.API.v2.Container.ListRequest> __Marshaller_neo_fs_v2_container_ListRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::EpicChain.API.v2.Container.ListRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::EpicChain.API.v2.Container.ListResponse> __Marshaller_neo_fs_v2_container_ListResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::EpicChain.API.v2.Container.ListResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::EpicChain.API.v2.Container.SetExtendedACLRequest> __Marshaller_neo_fs_v2_container_SetExtendedACLRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::EpicChain.API.v2.Container.SetExtendedACLRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::EpicChain.API.v2.Container.SetExtendedACLResponse> __Marshaller_neo_fs_v2_container_SetExtendedACLResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::EpicChain.API.v2.Container.SetExtendedACLResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::EpicChain.API.v2.Container.GetExtendedACLRequest> __Marshaller_neo_fs_v2_container_GetExtendedACLRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::EpicChain.API.v2.Container.GetExtendedACLRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::EpicChain.API.v2.Container.GetExtendedACLResponse> __Marshaller_neo_fs_v2_container_GetExtendedACLResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::EpicChain.API.v2.Container.GetExtendedACLResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::EpicChain.API.v2.Container.AnnounceUsedSpaceRequest> __Marshaller_neo_fs_v2_container_AnnounceUsedSpaceRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::EpicChain.API.v2.Container.AnnounceUsedSpaceRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::EpicChain.API.v2.Container.AnnounceUsedSpaceResponse> __Marshaller_neo_fs_v2_container_AnnounceUsedSpaceResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::EpicChain.API.v2.Container.AnnounceUsedSpaceResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::EpicChain.API.v2.Container.PutRequest> __Marshaller_epicchain_v2_container_PutRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::EpicChain.API.v2.Container.PutRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::EpicChain.API.v2.Container.PutResponse> __Marshaller_epicchain_v2_container_PutResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::EpicChain.API.v2.Container.PutResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::EpicChain.API.v2.Container.DeleteRequest> __Marshaller_epicchain_v2_container_DeleteRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::EpicChain.API.v2.Container.DeleteRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::EpicChain.API.v2.Container.DeleteResponse> __Marshaller_epicchain_v2_container_DeleteResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::EpicChain.API.v2.Container.DeleteResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::EpicChain.API.v2.Container.GetRequest> __Marshaller_epicchain_v2_container_GetRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::EpicChain.API.v2.Container.GetRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::EpicChain.API.v2.Container.GetResponse> __Marshaller_epicchain_v2_container_GetResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::EpicChain.API.v2.Container.GetResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::EpicChain.API.v2.Container.ListRequest> __Marshaller_epicchain_v2_container_ListRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::EpicChain.API.v2.Container.ListRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::EpicChain.API.v2.Container.ListResponse> __Marshaller_epicchain_v2_container_ListResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::EpicChain.API.v2.Container.ListResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::EpicChain.API.v2.Container.SetExtendedACLRequest> __Marshaller_epicchain_v2_container_SetExtendedACLRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::EpicChain.API.v2.Container.SetExtendedACLRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::EpicChain.API.v2.Container.SetExtendedACLResponse> __Marshaller_epicchain_v2_container_SetExtendedACLResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::EpicChain.API.v2.Container.SetExtendedACLResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::EpicChain.API.v2.Container.GetExtendedACLRequest> __Marshaller_epicchain_v2_container_GetExtendedACLRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::EpicChain.API.v2.Container.GetExtendedACLRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::EpicChain.API.v2.Container.GetExtendedACLResponse> __Marshaller_epicchain_v2_container_GetExtendedACLResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::EpicChain.API.v2.Container.GetExtendedACLResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::EpicChain.API.v2.Container.AnnounceUsedSpaceRequest> __Marshaller_epicchain_v2_container_AnnounceUsedSpaceRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::EpicChain.API.v2.Container.AnnounceUsedSpaceRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::EpicChain.API.v2.Container.AnnounceUsedSpaceResponse> __Marshaller_epicchain_v2_container_AnnounceUsedSpaceResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::EpicChain.API.v2.Container.AnnounceUsedSpaceResponse.Parser.ParseFrom);
 
     static readonly grpc::Method<global::EpicChain.API.v2.Container.PutRequest, global::EpicChain.API.v2.Container.PutResponse> __Method_Put = new grpc::Method<global::EpicChain.API.v2.Container.PutRequest, global::EpicChain.API.v2.Container.PutResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
         "Put",
-        __Marshaller_neo_fs_v2_container_PutRequest,
-        __Marshaller_neo_fs_v2_container_PutResponse);
+        __Marshaller_epicchain_v2_container_PutRequest,
+        __Marshaller_epicchain_v2_container_PutResponse);
 
     static readonly grpc::Method<global::EpicChain.API.v2.Container.DeleteRequest, global::EpicChain.API.v2.Container.DeleteResponse> __Method_Delete = new grpc::Method<global::EpicChain.API.v2.Container.DeleteRequest, global::EpicChain.API.v2.Container.DeleteResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
         "Delete",
-        __Marshaller_neo_fs_v2_container_DeleteRequest,
-        __Marshaller_neo_fs_v2_container_DeleteResponse);
+        __Marshaller_epicchain_v2_container_DeleteRequest,
+        __Marshaller_epicchain_v2_container_DeleteResponse);
 
     static readonly grpc::Method<global::EpicChain.API.v2.Container.GetRequest, global::EpicChain.API.v2.Container.GetResponse> __Method_Get = new grpc::Method<global::EpicChain.API.v2.Container.GetRequest, global::EpicChain.API.v2.Container.GetResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
         "Get",
-        __Marshaller_neo_fs_v2_container_GetRequest,
-        __Marshaller_neo_fs_v2_container_GetResponse);
+        __Marshaller_epicchain_v2_container_GetRequest,
+        __Marshaller_epicchain_v2_container_GetResponse);
 
     static readonly grpc::Method<global::EpicChain.API.v2.Container.ListRequest, global::EpicChain.API.v2.Container.ListResponse> __Method_List = new grpc::Method<global::EpicChain.API.v2.Container.ListRequest, global::EpicChain.API.v2.Container.ListResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
         "List",
-        __Marshaller_neo_fs_v2_container_ListRequest,
-        __Marshaller_neo_fs_v2_container_ListResponse);
+        __Marshaller_epicchain_v2_container_ListRequest,
+        __Marshaller_epicchain_v2_container_ListResponse);
 
     static readonly grpc::Method<global::EpicChain.API.v2.Container.SetExtendedACLRequest, global::EpicChain.API.v2.Container.SetExtendedACLResponse> __Method_SetExtendedACL = new grpc::Method<global::EpicChain.API.v2.Container.SetExtendedACLRequest, global::EpicChain.API.v2.Container.SetExtendedACLResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
         "SetExtendedACL",
-        __Marshaller_neo_fs_v2_container_SetExtendedACLRequest,
-        __Marshaller_neo_fs_v2_container_SetExtendedACLResponse);
+        __Marshaller_epicchain_v2_container_SetExtendedACLRequest,
+        __Marshaller_epicchain_v2_container_SetExtendedACLResponse);
 
     static readonly grpc::Method<global::EpicChain.API.v2.Container.GetExtendedACLRequest, global::EpicChain.API.v2.Container.GetExtendedACLResponse> __Method_GetExtendedACL = new grpc::Method<global::EpicChain.API.v2.Container.GetExtendedACLRequest, global::EpicChain.API.v2.Container.GetExtendedACLResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
         "GetExtendedACL",
-        __Marshaller_neo_fs_v2_container_GetExtendedACLRequest,
-        __Marshaller_neo_fs_v2_container_GetExtendedACLResponse);
+        __Marshaller_epicchain_v2_container_GetExtendedACLRequest,
+        __Marshaller_epicchain_v2_container_GetExtendedACLResponse);
 
     static readonly grpc::Method<global::EpicChain.API.v2.Container.AnnounceUsedSpaceRequest, global::EpicChain.API.v2.Container.AnnounceUsedSpaceResponse> __Method_AnnounceUsedSpace = new grpc::Method<global::EpicChain.API.v2.Container.AnnounceUsedSpaceRequest, global::EpicChain.API.v2.Container.AnnounceUsedSpaceResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
         "AnnounceUsedSpace",
-        __Marshaller_neo_fs_v2_container_AnnounceUsedSpaceRequest,
-        __Marshaller_neo_fs_v2_container_AnnounceUsedSpaceResponse);
+        __Marshaller_epicchain_v2_container_AnnounceUsedSpaceRequest,
+        __Marshaller_epicchain_v2_container_AnnounceUsedSpaceResponse);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor

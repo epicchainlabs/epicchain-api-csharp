@@ -1,5 +1,5 @@
 using Google.Protobuf;
-using Neo;
+using EpicChain;
 using EpicChain.API.v2.Accounting;
 using EpicChain.API.v2.Cryptography;
 using EpicChain.API.v2.Refs;

@@ -18,15 +18,15 @@ namespace EpicChain.API.v2.Netmap {
   {
     static readonly string __ServiceName = "EpicChain.fs.v2.netmap.NetmapService";
 
-    static readonly grpc::Marshaller<global::EpicChain.API.v2.Netmap.LocalNodeInfoRequest> __Marshaller_neo_fs_v2_netmap_LocalNodeInfoRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::EpicChain.API.v2.Netmap.LocalNodeInfoRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::EpicChain.API.v2.Netmap.LocalNodeInfoResponse> __Marshaller_neo_fs_v2_netmap_LocalNodeInfoResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::EpicChain.API.v2.Netmap.LocalNodeInfoResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::EpicChain.API.v2.Netmap.LocalNodeInfoRequest> __Marshaller_epicchain_v2_netmap_LocalNodeInfoRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::EpicChain.API.v2.Netmap.LocalNodeInfoRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::EpicChain.API.v2.Netmap.LocalNodeInfoResponse> __Marshaller_epicchain_v2_netmap_LocalNodeInfoResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::EpicChain.API.v2.Netmap.LocalNodeInfoResponse.Parser.ParseFrom);
 
     static readonly grpc::Method<global::EpicChain.API.v2.Netmap.LocalNodeInfoRequest, global::EpicChain.API.v2.Netmap.LocalNodeInfoResponse> __Method_LocalNodeInfo = new grpc::Method<global::EpicChain.API.v2.Netmap.LocalNodeInfoRequest, global::EpicChain.API.v2.Netmap.LocalNodeInfoResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
         "LocalNodeInfo",
-        __Marshaller_neo_fs_v2_netmap_LocalNodeInfoRequest,
-        __Marshaller_neo_fs_v2_netmap_LocalNodeInfoResponse);
+        __Marshaller_epicchain_v2_netmap_LocalNodeInfoRequest,
+        __Marshaller_epicchain_v2_netmap_LocalNodeInfoResponse);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor

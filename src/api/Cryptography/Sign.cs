@@ -1,5 +1,5 @@
 using Google.Protobuf;
-using Neo;
+using EpicChain;
 using EpicChain.API.v2.Session;
 using EpicChain.API.v2.Refs;
 using System;

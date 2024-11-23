@@ -2,7 +2,7 @@
 using System.Numerics;
 using System.Collections.Generic;
 using System.Linq;
-using Neo;
+using EpicChain;
 using EpicChain.API.v2.Refs;
 using System.Security.Cryptography;
 using Google.Protobuf;

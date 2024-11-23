@@ -5,7 +5,7 @@ using System.Security.Cryptography;
 using EpicChain.API.v2.Accounting;
 using EpicChain.API.v2.Session;
 using EpicChain.API.v2.Refs;
-using Neo;
+using EpicChain;
 
 namespace EpicChain.API.v2.UnitTests.TestCryptography
 {

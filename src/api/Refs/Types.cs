@@ -557,10 +557,10 @@ namespace EpicChain.API.v2.Refs {
 
   /// <summary>
   /// `OwnerID` is a derivative of a user's main public key. The transformation
-  /// algorithm is the same as for Neo3 wallet addresses. Neo3 wallet address can
+  /// algorithm is the same as for EpicChain wallet addresses. EpicChain wallet address can
   /// be directly used as `OwnerID`.
   ///
-  /// `OwnerID` is a 25 bytes sequence starting with Neo version prefix byte
+  /// `OwnerID` is a 25 bytes sequence starting with EpicChain version prefix byte
   /// followed by 20 bytes of ScrptHash and 4 bytes of checksum.
   ///
   /// String presentation is [Base58

@@ -1,6 +1,6 @@
 using Google.Protobuf;
 using EpicChain.API.v2.Cryptography;
-using Neo;
+using EpicChain;
 using System;
 
 namespace EpicChain.API.v2.Refs

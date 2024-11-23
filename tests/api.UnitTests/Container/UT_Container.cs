@@ -1,6 +1,6 @@
 using Google.Protobuf;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Neo;
+using EpicChain;
 using EpicChain.API.v2.Cryptography;
 using EpicChain.API.v2.Container;
 using EpicChain.API.v2.Netmap;

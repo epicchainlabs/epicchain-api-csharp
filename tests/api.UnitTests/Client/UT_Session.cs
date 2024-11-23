@@ -1,5 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Neo;
+using EpicChain;
 using EpicChain.API.v2.Cryptography;
 using System;
 using System.Threading;
