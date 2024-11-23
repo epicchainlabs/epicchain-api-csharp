@@ -1,14 +1,14 @@
-using EpicChainAPI.v2.Acl;
-using EpicChainAPI.v2.Container;
-using EpicChainAPI.v2.Cryptography;
-using EpicChainAPI.v2.Refs;
+using EpicChain.API.v2.Acl;
+using EpicChain.API.v2.Container;
+using EpicChain.API.v2.Cryptography;
+using EpicChain.API.v2.Refs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
-using UsedSpaceAnnouncement = EpicChainAPI.v2.Container.AnnounceUsedSpaceRequest.Types.Body.Types.Announcement;
+using UsedSpaceAnnouncement = EpicChain.API.v2.Container.AnnounceUsedSpaceRequest.Types.Body.Types.Announcement;
 
-namespace EpicChainAPI.v2.Client
+namespace EpicChain.API.v2.Client
 {
     public partial class Client
     {

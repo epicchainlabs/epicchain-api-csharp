@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace EpicChainAPI.v2.Container {
+namespace EpicChain.API.v2.Container {
 
   /// <summary>Holder for reflection information generated from container/types.proto</summary>
   public static partial class TypesReflection {
@@ -38,9 +38,9 @@ namespace EpicChainAPI.v2.Container {
             "L2NvbnRhaW5lci9ncnBjO2NvbnRhaW5lcqoCFk5lb0ZTLkFQSS52Mi5Db250",
             "YWluZXJiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::EpicChainAPI.v2.Netmap.TypesReflection.Descriptor, global::EpicChainAPI.v2.Refs.TypesReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::EpicChain.API.v2.Netmap.TypesReflection.Descriptor, global::EpicChain.API.v2.Refs.TypesReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::EpicChainAPI.v2.Container.Container), global::EpicChainAPI.v2.Container.Container.Parser, new[]{ "Version", "OwnerId", "Nonce", "BasicAcl", "Attributes", "PlacementPolicy" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::EpicChainAPI.v2.Container.Container.Types.Attribute), global::EpicChainAPI.v2.Container.Container.Types.Attribute.Parser, new[]{ "Key", "Value" }, null, null, null, null)})
+            new pbr::GeneratedClrTypeInfo(typeof(global::EpicChain.API.v2.Container.Container), global::EpicChain.API.v2.Container.Container.Parser, new[]{ "Version", "OwnerId", "Nonce", "BasicAcl", "Attributes", "PlacementPolicy" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::EpicChain.API.v2.Container.Container.Types.Attribute), global::EpicChain.API.v2.Container.Container.Types.Attribute.Parser, new[]{ "Key", "Value" }, null, null, null, null)})
           }));
     }
     #endregion
@@ -61,7 +61,7 @@ namespace EpicChainAPI.v2.Container {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::EpicChainAPI.v2.Container.TypesReflection.Descriptor.MessageTypes[0]; }
+      get { return global::EpicChain.API.v2.Container.TypesReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -94,13 +94,13 @@ namespace EpicChainAPI.v2.Container {
 
     /// <summary>Field number for the "version" field.</summary>
     public const int VersionFieldNumber = 1;
-    private global::EpicChainAPI.v2.Refs.Version version_;
+    private global::EpicChain.API.v2.Refs.Version version_;
     /// <summary>
     /// Container format version. Effectively the version of API library used to
     /// create container.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::EpicChainAPI.v2.Refs.Version Version {
+    public global::EpicChain.API.v2.Refs.Version Version {
       get { return version_; }
       set {
         version_ = value;
@@ -109,12 +109,12 @@ namespace EpicChainAPI.v2.Container {
 
     /// <summary>Field number for the "owner_id" field.</summary>
     public const int OwnerIdFieldNumber = 2;
-    private global::EpicChainAPI.v2.Refs.OwnerID ownerId_;
+    private global::EpicChain.API.v2.Refs.OwnerID ownerId_;
     /// <summary>
     /// Identifier of the container owner
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::EpicChainAPI.v2.Refs.OwnerID OwnerId {
+    public global::EpicChain.API.v2.Refs.OwnerID OwnerId {
       get { return ownerId_; }
       set {
         ownerId_ = value;
@@ -152,25 +152,25 @@ namespace EpicChainAPI.v2.Container {
 
     /// <summary>Field number for the "attributes" field.</summary>
     public const int AttributesFieldNumber = 5;
-    private static readonly pb::FieldCodec<global::EpicChainAPI.v2.Container.Container.Types.Attribute> _repeated_attributes_codec
-        = pb::FieldCodec.ForMessage(42, global::EpicChainAPI.v2.Container.Container.Types.Attribute.Parser);
-    private readonly pbc::RepeatedField<global::EpicChainAPI.v2.Container.Container.Types.Attribute> attributes_ = new pbc::RepeatedField<global::EpicChainAPI.v2.Container.Container.Types.Attribute>();
+    private static readonly pb::FieldCodec<global::EpicChain.API.v2.Container.Container.Types.Attribute> _repeated_attributes_codec
+        = pb::FieldCodec.ForMessage(42, global::EpicChain.API.v2.Container.Container.Types.Attribute.Parser);
+    private readonly pbc::RepeatedField<global::EpicChain.API.v2.Container.Container.Types.Attribute> attributes_ = new pbc::RepeatedField<global::EpicChain.API.v2.Container.Container.Types.Attribute>();
     /// <summary>
     /// Attributes represent immutable container's meta data
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::EpicChainAPI.v2.Container.Container.Types.Attribute> Attributes {
+    public pbc::RepeatedField<global::EpicChain.API.v2.Container.Container.Types.Attribute> Attributes {
       get { return attributes_; }
     }
 
     /// <summary>Field number for the "placement_policy" field.</summary>
     public const int PlacementPolicyFieldNumber = 6;
-    private global::EpicChainAPI.v2.Netmap.PlacementPolicy placementPolicy_;
+    private global::EpicChain.API.v2.Netmap.PlacementPolicy placementPolicy_;
     /// <summary>
     /// Placement policy for the object inside the container
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::EpicChainAPI.v2.Netmap.PlacementPolicy PlacementPolicy {
+    public global::EpicChain.API.v2.Netmap.PlacementPolicy PlacementPolicy {
       get { return placementPolicy_; }
       set {
         placementPolicy_ = value;
@@ -279,13 +279,13 @@ namespace EpicChainAPI.v2.Container {
       }
       if (other.version_ != null) {
         if (version_ == null) {
-          Version = new global::EpicChainAPI.v2.Refs.Version();
+          Version = new global::EpicChain.API.v2.Refs.Version();
         }
         Version.MergeFrom(other.Version);
       }
       if (other.ownerId_ != null) {
         if (ownerId_ == null) {
-          OwnerId = new global::EpicChainAPI.v2.Refs.OwnerID();
+          OwnerId = new global::EpicChain.API.v2.Refs.OwnerID();
         }
         OwnerId.MergeFrom(other.OwnerId);
       }
@@ -298,7 +298,7 @@ namespace EpicChainAPI.v2.Container {
       attributes_.Add(other.attributes_);
       if (other.placementPolicy_ != null) {
         if (placementPolicy_ == null) {
-          PlacementPolicy = new global::EpicChainAPI.v2.Netmap.PlacementPolicy();
+          PlacementPolicy = new global::EpicChain.API.v2.Netmap.PlacementPolicy();
         }
         PlacementPolicy.MergeFrom(other.PlacementPolicy);
       }
@@ -315,14 +315,14 @@ namespace EpicChainAPI.v2.Container {
             break;
           case 10: {
             if (version_ == null) {
-              Version = new global::EpicChainAPI.v2.Refs.Version();
+              Version = new global::EpicChain.API.v2.Refs.Version();
             }
             input.ReadMessage(Version);
             break;
           }
           case 18: {
             if (ownerId_ == null) {
-              OwnerId = new global::EpicChainAPI.v2.Refs.OwnerID();
+              OwnerId = new global::EpicChain.API.v2.Refs.OwnerID();
             }
             input.ReadMessage(OwnerId);
             break;
@@ -341,7 +341,7 @@ namespace EpicChainAPI.v2.Container {
           }
           case 50: {
             if (placementPolicy_ == null) {
-              PlacementPolicy = new global::EpicChainAPI.v2.Netmap.PlacementPolicy();
+              PlacementPolicy = new global::EpicChain.API.v2.Netmap.PlacementPolicy();
             }
             input.ReadMessage(PlacementPolicy);
             break;
@@ -384,7 +384,7 @@ namespace EpicChainAPI.v2.Container {
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public static pbr::MessageDescriptor Descriptor {
-          get { return global::EpicChainAPI.v2.Container.Container.Descriptor.NestedTypes[0]; }
+          get { return global::EpicChain.API.v2.Container.Container.Descriptor.NestedTypes[0]; }
         }
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

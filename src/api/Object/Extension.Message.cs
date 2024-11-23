@@ -1,7 +1,7 @@
 using Google.Protobuf;
-using EpicChainAPI.v2.Session;
+using EpicChain.API.v2.Session;
 
-namespace EpicChainAPI.v2.Object
+namespace EpicChain.API.v2.Object
 {
     public partial class GetRequest : IRequest
     {

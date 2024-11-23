@@ -1,11 +1,11 @@
 using Grpc.Core;
-using EpicChainAPI.v2.Acl;
-using EpicChainAPI.v2.Refs;
-using EpicChainAPI.v2.Session;
+using EpicChain.API.v2.Acl;
+using EpicChain.API.v2.Refs;
+using EpicChain.API.v2.Session;
 using System;
 using System.Security.Cryptography;
 
-namespace EpicChainAPI.v2.Client
+namespace EpicChain.API.v2.Client
 {
     public partial class Client
     {

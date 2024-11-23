@@ -1,7 +1,7 @@
 using Google.Protobuf;
 using System;
 
-namespace EpicChainAPI.v2.Object
+namespace EpicChain.API.v2.Object
 {
     public class SplitID : IComparable<SplitID>, IEquatable<SplitID>
     {

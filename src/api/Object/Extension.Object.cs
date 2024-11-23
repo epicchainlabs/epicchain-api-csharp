@@ -1,10 +1,10 @@
 using Google.Protobuf;
-using EpicChainAPI.v2.Refs;
-using EpicChainAPI.v2.Cryptography;
+using EpicChain.API.v2.Refs;
+using EpicChain.API.v2.Cryptography;
 using System.Security.Cryptography;
 using System.Linq;
 
-namespace EpicChainAPI.v2.Object
+namespace EpicChain.API.v2.Object
 {
     public partial class Object
     {

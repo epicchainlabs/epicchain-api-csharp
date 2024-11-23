@@ -1,9 +1,9 @@
 using Google.Protobuf;
-using EpicChainAPI.v2.Cryptography;
+using EpicChain.API.v2.Cryptography;
 using Neo;
 using System;
 
-namespace EpicChainAPI.v2.Refs
+namespace EpicChain.API.v2.Refs
 {
     public sealed partial class Checksum
     {

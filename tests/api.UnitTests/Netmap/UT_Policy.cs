@@ -1,8 +1,8 @@
 using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using EpicChainAPI.v2.Netmap;
+using EpicChain.API.v2.Netmap;
 
-namespace EpicChainAPI.v2.UnitTests.TestNetmap
+namespace EpicChain.API.v2.UnitTests.TestNetmap
 {
     [TestClass]
     public class UT_Policy

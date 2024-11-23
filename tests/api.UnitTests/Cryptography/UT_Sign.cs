@@ -1,13 +1,13 @@
 using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using EpicChainAPI.v2.Cryptography;
+using EpicChain.API.v2.Cryptography;
 using System.Security.Cryptography;
-using EpicChainAPI.v2.Accounting;
-using EpicChainAPI.v2.Session;
-using EpicChainAPI.v2.Refs;
+using EpicChain.API.v2.Accounting;
+using EpicChain.API.v2.Session;
+using EpicChain.API.v2.Refs;
 using Neo;
 
-namespace EpicChainAPI.v2.UnitTests.TestCryptography
+namespace EpicChain.API.v2.UnitTests.TestCryptography
 {
     [TestClass]
     public class UT_Sign

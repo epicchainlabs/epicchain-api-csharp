@@ -1,4 +1,4 @@
-﻿namespace EpicChainAPI.v2.Session
+﻿namespace EpicChain.API.v2.Session
 {
     public partial class XHeader
     {

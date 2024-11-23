@@ -1,6 +1,6 @@
 
 
-namespace EpicChainAPI.v2.Netmap
+namespace EpicChain.API.v2.Netmap
 {
     public partial class Filter
     {

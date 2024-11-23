@@ -7,7 +7,7 @@
 
 using grpc = global::Grpc.Core;
 
-namespace EpicChainAPI.v2.Accounting {
+namespace EpicChain.API.v2.Accounting {
   /// <summary>
   /// Accounting service provides methods for interaction with NeoFS sidechain via
   /// other NeoFS nodes to get information about the account balance. Deposit and
@@ -19,10 +19,10 @@ namespace EpicChainAPI.v2.Accounting {
   {
     static readonly string __ServiceName = "EpicChain.fs.v2.accounting.AccountingService";
 
-    static readonly grpc::Marshaller<global::EpicChainAPI.v2.Accounting.BalanceRequest> __Marshaller_neo_fs_v2_accounting_BalanceRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::EpicChainAPI.v2.Accounting.BalanceRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::EpicChainAPI.v2.Accounting.BalanceResponse> __Marshaller_neo_fs_v2_accounting_BalanceResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::EpicChainAPI.v2.Accounting.BalanceResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::EpicChain.API.v2.Accounting.BalanceRequest> __Marshaller_neo_fs_v2_accounting_BalanceRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::EpicChain.API.v2.Accounting.BalanceRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::EpicChain.API.v2.Accounting.BalanceResponse> __Marshaller_neo_fs_v2_accounting_BalanceResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::EpicChain.API.v2.Accounting.BalanceResponse.Parser.ParseFrom);
 
-    static readonly grpc::Method<global::EpicChainAPI.v2.Accounting.BalanceRequest, global::EpicChainAPI.v2.Accounting.BalanceResponse> __Method_Balance = new grpc::Method<global::EpicChainAPI.v2.Accounting.BalanceRequest, global::EpicChainAPI.v2.Accounting.BalanceResponse>(
+    static readonly grpc::Method<global::EpicChain.API.v2.Accounting.BalanceRequest, global::EpicChain.API.v2.Accounting.BalanceResponse> __Method_Balance = new grpc::Method<global::EpicChain.API.v2.Accounting.BalanceRequest, global::EpicChain.API.v2.Accounting.BalanceResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
         "Balance",
@@ -32,7 +32,7 @@ namespace EpicChainAPI.v2.Accounting {
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
     {
-      get { return global::EpicChainAPI.v2.Accounting.ServiceReflection.Descriptor.Services[0]; }
+      get { return global::EpicChain.API.v2.Accounting.ServiceReflection.Descriptor.Services[0]; }
     }
 
     /// <summary>Base class for server-side implementations of AccountingService</summary>
@@ -45,7 +45,7 @@ namespace EpicChainAPI.v2.Accounting {
       /// <param name="request">The request received from the client.</param>
       /// <param name="context">The context of the server-side call handler being invoked.</param>
       /// <returns>The response to send back to the client (wrapped by a task).</returns>
-      public virtual global::System.Threading.Tasks.Task<global::EpicChainAPI.v2.Accounting.BalanceResponse> Balance(global::EpicChainAPI.v2.Accounting.BalanceRequest request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::EpicChain.API.v2.Accounting.BalanceResponse> Balance(global::EpicChain.API.v2.Accounting.BalanceRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -83,7 +83,7 @@ namespace EpicChainAPI.v2.Accounting {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
-      public virtual global::EpicChainAPI.v2.Accounting.BalanceResponse Balance(global::EpicChainAPI.v2.Accounting.BalanceRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::EpicChain.API.v2.Accounting.BalanceResponse Balance(global::EpicChain.API.v2.Accounting.BalanceRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return Balance(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
@@ -93,7 +93,7 @@ namespace EpicChainAPI.v2.Accounting {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
-      public virtual global::EpicChainAPI.v2.Accounting.BalanceResponse Balance(global::EpicChainAPI.v2.Accounting.BalanceRequest request, grpc::CallOptions options)
+      public virtual global::EpicChain.API.v2.Accounting.BalanceResponse Balance(global::EpicChain.API.v2.Accounting.BalanceRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_Balance, null, options, request);
       }
@@ -105,7 +105,7 @@ namespace EpicChainAPI.v2.Accounting {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::EpicChainAPI.v2.Accounting.BalanceResponse> BalanceAsync(global::EpicChainAPI.v2.Accounting.BalanceRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::EpicChain.API.v2.Accounting.BalanceResponse> BalanceAsync(global::EpicChain.API.v2.Accounting.BalanceRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return BalanceAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
@@ -115,7 +115,7 @@ namespace EpicChainAPI.v2.Accounting {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::EpicChainAPI.v2.Accounting.BalanceResponse> BalanceAsync(global::EpicChainAPI.v2.Accounting.BalanceRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::EpicChain.API.v2.Accounting.BalanceResponse> BalanceAsync(global::EpicChain.API.v2.Accounting.BalanceRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_Balance, null, options, request);
       }
@@ -140,7 +140,7 @@ namespace EpicChainAPI.v2.Accounting {
     /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
     public static void BindService(grpc::ServiceBinderBase serviceBinder, AccountingServiceBase serviceImpl)
     {
-      serviceBinder.AddMethod(__Method_Balance, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::EpicChainAPI.v2.Accounting.BalanceRequest, global::EpicChainAPI.v2.Accounting.BalanceResponse>(serviceImpl.Balance));
+      serviceBinder.AddMethod(__Method_Balance, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::EpicChain.API.v2.Accounting.BalanceRequest, global::EpicChain.API.v2.Accounting.BalanceResponse>(serviceImpl.Balance));
     }
 
   }

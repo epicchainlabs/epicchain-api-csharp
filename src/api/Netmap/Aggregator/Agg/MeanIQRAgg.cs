@@ -1,7 +1,7 @@
 using System;
 using System.Linq;
 
-namespace EpicChainAPI.v2.Netmap.Aggregator
+namespace EpicChain.API.v2.Netmap.Aggregator
 {
     public class MeanIQRAgg : IAggregator
     {

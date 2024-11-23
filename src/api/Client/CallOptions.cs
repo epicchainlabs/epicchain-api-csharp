@@ -1,8 +1,8 @@
-using EpicChainAPI.v2.Acl;
-using EpicChainAPI.v2.Session;
-using EpicChainAPI.v2.Refs;
+using EpicChain.API.v2.Acl;
+using EpicChain.API.v2.Session;
+using EpicChain.API.v2.Refs;
 
-namespace EpicChainAPI.v2.Client
+namespace EpicChain.API.v2.Client
 {
     public class CallOptions
     {

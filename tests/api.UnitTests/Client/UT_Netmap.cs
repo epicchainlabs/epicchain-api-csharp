@@ -1,9 +1,9 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using EpicChainAPI.v2.Cryptography;
+using EpicChain.API.v2.Cryptography;
 using System;
 using System.Threading;
 
-namespace EpicChainAPI.v2.UnitTests.FSClient
+namespace EpicChain.API.v2.UnitTests.FSClient
 {
     [TestClass]
     public class UT_Netmap

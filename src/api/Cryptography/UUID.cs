@@ -3,7 +3,7 @@ using Google.Protobuf;
 using Neo;
 using EpicChain.Cryptography;
 
-namespace EpicChainAPI.v2.Cryptography
+namespace EpicChain.API.v2.Cryptography
 {
     public static class UUIDExtension
     {

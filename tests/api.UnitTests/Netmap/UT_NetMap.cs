@@ -1,9 +1,9 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using EpicChainAPI.v2.Netmap;
+using EpicChain.API.v2.Netmap;
 using System;
 using System.Collections.Generic;
 
-namespace EpicChainAPI.v2.UnitTests.TestNetmap
+namespace EpicChain.API.v2.UnitTests.TestNetmap
 {
     [TestClass]
     public class UT_NetMap

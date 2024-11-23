@@ -1,6 +1,6 @@
 using System;
 
-namespace EpicChainAPI.v2.Object.Exceptions
+namespace EpicChain.API.v2.Object.Exceptions
 {
     public class SplitInfoException : Exception
     {

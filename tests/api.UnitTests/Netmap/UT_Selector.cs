@@ -3,11 +3,11 @@ using System.Linq;
 using System.Text;
 using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using EpicChainAPI.v2.Netmap;
-using EpicChainAPI.v2.Netmap.Aggregator;
-using EpicChainAPI.v2.Netmap.Normalize;
+using EpicChain.API.v2.Netmap;
+using EpicChain.API.v2.Netmap.Aggregator;
+using EpicChain.API.v2.Netmap.Normalize;
 
-namespace EpicChainAPI.v2.UnitTests.TestNetmap
+namespace EpicChain.API.v2.UnitTests.TestNetmap
 {
     public class SelectorTestCase
     {

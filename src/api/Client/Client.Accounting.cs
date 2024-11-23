@@ -1,12 +1,12 @@
 using Google.Protobuf;
 using Neo;
-using EpicChainAPI.v2.Accounting;
-using EpicChainAPI.v2.Cryptography;
-using EpicChainAPI.v2.Refs;
-using EpicChainAPI.v2.Session;
+using EpicChain.API.v2.Accounting;
+using EpicChain.API.v2.Cryptography;
+using EpicChain.API.v2.Refs;
+using EpicChain.API.v2.Session;
 using System;
 
-namespace EpicChainAPI.v2.Client
+namespace EpicChain.API.v2.Client
 {
     public partial class Client
     {

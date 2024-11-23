@@ -1,4 +1,4 @@
-namespace EpicChainAPI.v2.Object
+namespace EpicChain.API.v2.Object
 {
     public sealed partial class Header
     {

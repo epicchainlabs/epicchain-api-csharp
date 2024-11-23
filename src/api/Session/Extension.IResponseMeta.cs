@@ -1,6 +1,6 @@
-using EpicChainAPI.v2.Acl;
+using EpicChain.API.v2.Acl;
 
-namespace EpicChainAPI.v2.Session
+namespace EpicChain.API.v2.Session
 {
     public static partial class SessionExtension
     {

@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using EpicChainAPI.v2.Cryptography.Tz;
+using EpicChain.API.v2.Cryptography.Tz;
 
-namespace EpicChainAPI.v2.UnitTests.TestCryptography.Tz
+namespace EpicChain.API.v2.UnitTests.TestCryptography.Tz
 {
     [TestClass]
     public class UT_SL2

@@ -1,5 +1,5 @@
 
-namespace EpicChainAPI.v2.Object
+namespace EpicChain.API.v2.Object
 {
     public partial class SearchRequest
     {

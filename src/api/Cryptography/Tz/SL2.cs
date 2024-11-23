@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace EpicChainAPI.v2.Cryptography.Tz
+namespace EpicChain.API.v2.Cryptography.Tz
 {
     public class SL2 : IEquatable<SL2>
     {

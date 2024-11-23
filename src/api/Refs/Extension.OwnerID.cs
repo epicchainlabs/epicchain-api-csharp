@@ -1,7 +1,7 @@
 using Google.Protobuf;
 using EpicChain.Cryptography;
 
-namespace EpicChainAPI.v2.Refs
+namespace EpicChain.API.v2.Refs
 {
     public partial class OwnerID
     {

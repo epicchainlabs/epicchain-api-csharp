@@ -1,11 +1,11 @@
 using Google.Protobuf;
 using Neo;
-using EpicChainAPI.v2.Session;
-using EpicChainAPI.v2.Refs;
+using EpicChain.API.v2.Session;
+using EpicChain.API.v2.Refs;
 using System;
 using System.Security.Cryptography;
 
-namespace EpicChainAPI.v2.Cryptography
+namespace EpicChain.API.v2.Cryptography
 {
     public static class SignerExtension
     {

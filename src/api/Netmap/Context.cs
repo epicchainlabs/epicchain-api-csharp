@@ -1,9 +1,9 @@
-using EpicChainAPI.v2.Netmap.Aggregator;
-using EpicChainAPI.v2.Cryptography;
+using EpicChain.API.v2.Netmap.Aggregator;
+using EpicChain.API.v2.Cryptography;
 using System;
 using System.Collections.Generic;
 
-namespace EpicChainAPI.v2.Netmap
+namespace EpicChain.API.v2.Netmap
 {
     public partial class Context
     {

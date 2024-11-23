@@ -2,19 +2,19 @@ using Google.Protobuf;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Neo;
 using EpicChain.Cryptography;
-using EpicChainAPI.v2.Client;
-using EpicChainAPI.v2.Client.ObjectParams;
-using EpicChainAPI.v2.Cryptography;
-using EpicChainAPI.v2.Refs;
-using EpicChainAPI.v2.Object;
-using V2Object = EpicChainAPI.v2.Object.Object;
+using EpicChain.API.v2.Client;
+using EpicChain.API.v2.Client.ObjectParams;
+using EpicChain.API.v2.Cryptography;
+using EpicChain.API.v2.Refs;
+using EpicChain.API.v2.Object;
+using V2Object = EpicChain.API.v2.Object.Object;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Linq;
 using System.Threading;
 
-namespace EpicChainAPI.v2.UnitTests.FSClient
+namespace EpicChain.API.v2.UnitTests.FSClient
 {
     [TestClass]
     public class UT_Object

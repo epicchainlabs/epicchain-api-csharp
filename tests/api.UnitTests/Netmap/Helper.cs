@@ -1,6 +1,6 @@
-using EpicChainAPI.v2.Netmap;
+using EpicChain.API.v2.Netmap;
 
-namespace EpicChainAPI.v2.UnitTests.TestNetmap
+namespace EpicChain.API.v2.UnitTests.TestNetmap
 {
     public static class Helper
     {

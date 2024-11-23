@@ -3,14 +3,14 @@ using System.Numerics;
 using System.Collections.Generic;
 using System.Linq;
 using Neo;
-using EpicChainAPI.v2.Refs;
+using EpicChain.API.v2.Refs;
 using System.Security.Cryptography;
 using Google.Protobuf;
 using EpicChain.SmartContract;
 using EpicChain.Wallets;
 using EpicChain.Cryptography;
 
-namespace EpicChainAPI.v2.Cryptography
+namespace EpicChain.API.v2.Cryptography
 {
     public static class KeyExtension
     {

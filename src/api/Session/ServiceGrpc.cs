@@ -7,7 +7,7 @@
 
 using grpc = global::Grpc.Core;
 
-namespace EpicChainAPI.v2.Session {
+namespace EpicChain.API.v2.Session {
   /// <summary>
   /// `SessionService` allows to establish a temporary trust relationship between
   /// two peer nodes and generate a `SessionToken` as the proof of trust to be
@@ -18,10 +18,10 @@ namespace EpicChainAPI.v2.Session {
   {
     static readonly string __ServiceName = "EpicChain.fs.v2.session.SessionService";
 
-    static readonly grpc::Marshaller<global::EpicChainAPI.v2.Session.CreateRequest> __Marshaller_neo_fs_v2_session_CreateRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::EpicChainAPI.v2.Session.CreateRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::EpicChainAPI.v2.Session.CreateResponse> __Marshaller_neo_fs_v2_session_CreateResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::EpicChainAPI.v2.Session.CreateResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::EpicChain.API.v2.Session.CreateRequest> __Marshaller_neo_fs_v2_session_CreateRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::EpicChain.API.v2.Session.CreateRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::EpicChain.API.v2.Session.CreateResponse> __Marshaller_neo_fs_v2_session_CreateResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::EpicChain.API.v2.Session.CreateResponse.Parser.ParseFrom);
 
-    static readonly grpc::Method<global::EpicChainAPI.v2.Session.CreateRequest, global::EpicChainAPI.v2.Session.CreateResponse> __Method_Create = new grpc::Method<global::EpicChainAPI.v2.Session.CreateRequest, global::EpicChainAPI.v2.Session.CreateResponse>(
+    static readonly grpc::Method<global::EpicChain.API.v2.Session.CreateRequest, global::EpicChain.API.v2.Session.CreateResponse> __Method_Create = new grpc::Method<global::EpicChain.API.v2.Session.CreateRequest, global::EpicChain.API.v2.Session.CreateResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
         "Create",
@@ -31,7 +31,7 @@ namespace EpicChainAPI.v2.Session {
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
     {
-      get { return global::EpicChainAPI.v2.Session.ServiceReflection.Descriptor.Services[0]; }
+      get { return global::EpicChain.API.v2.Session.ServiceReflection.Descriptor.Services[0]; }
     }
 
     /// <summary>Base class for server-side implementations of SessionService</summary>
@@ -44,7 +44,7 @@ namespace EpicChainAPI.v2.Session {
       /// <param name="request">The request received from the client.</param>
       /// <param name="context">The context of the server-side call handler being invoked.</param>
       /// <returns>The response to send back to the client (wrapped by a task).</returns>
-      public virtual global::System.Threading.Tasks.Task<global::EpicChainAPI.v2.Session.CreateResponse> Create(global::EpicChainAPI.v2.Session.CreateRequest request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::EpicChain.API.v2.Session.CreateResponse> Create(global::EpicChain.API.v2.Session.CreateRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -82,7 +82,7 @@ namespace EpicChainAPI.v2.Session {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
-      public virtual global::EpicChainAPI.v2.Session.CreateResponse Create(global::EpicChainAPI.v2.Session.CreateRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::EpicChain.API.v2.Session.CreateResponse Create(global::EpicChain.API.v2.Session.CreateRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return Create(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
@@ -92,7 +92,7 @@ namespace EpicChainAPI.v2.Session {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
-      public virtual global::EpicChainAPI.v2.Session.CreateResponse Create(global::EpicChainAPI.v2.Session.CreateRequest request, grpc::CallOptions options)
+      public virtual global::EpicChain.API.v2.Session.CreateResponse Create(global::EpicChain.API.v2.Session.CreateRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_Create, null, options, request);
       }
@@ -104,7 +104,7 @@ namespace EpicChainAPI.v2.Session {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::EpicChainAPI.v2.Session.CreateResponse> CreateAsync(global::EpicChainAPI.v2.Session.CreateRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::EpicChain.API.v2.Session.CreateResponse> CreateAsync(global::EpicChain.API.v2.Session.CreateRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return CreateAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
@@ -114,7 +114,7 @@ namespace EpicChainAPI.v2.Session {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::EpicChainAPI.v2.Session.CreateResponse> CreateAsync(global::EpicChainAPI.v2.Session.CreateRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::EpicChain.API.v2.Session.CreateResponse> CreateAsync(global::EpicChain.API.v2.Session.CreateRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_Create, null, options, request);
       }
@@ -139,7 +139,7 @@ namespace EpicChainAPI.v2.Session {
     /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
     public static void BindService(grpc::ServiceBinderBase serviceBinder, SessionServiceBase serviceImpl)
     {
-      serviceBinder.AddMethod(__Method_Create, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::EpicChainAPI.v2.Session.CreateRequest, global::EpicChainAPI.v2.Session.CreateResponse>(serviceImpl.Create));
+      serviceBinder.AddMethod(__Method_Create, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::EpicChain.API.v2.Session.CreateRequest, global::EpicChain.API.v2.Session.CreateResponse>(serviceImpl.Create));
     }
 
   }

@@ -1,10 +1,10 @@
 using System.Collections.Generic;
 using System;
 using System.Linq;
-using EpicChainAPI.v2.Netmap.Normalize;
-using EpicChainAPI.v2.Netmap.Aggregator;
+using EpicChain.API.v2.Netmap.Normalize;
+using EpicChain.API.v2.Netmap.Aggregator;
 
-namespace EpicChainAPI.v2.Netmap
+namespace EpicChain.API.v2.Netmap
 {
     public static class Helper
     {

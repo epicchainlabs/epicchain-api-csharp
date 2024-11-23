@@ -1,5 +1,5 @@
 
-namespace EpicChainAPI.v2.Acl
+namespace EpicChain.API.v2.Acl
 {
     public sealed partial class EACLRecord
     {

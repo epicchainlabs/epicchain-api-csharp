@@ -1,9 +1,9 @@
-using EpicChainAPI.v2.Refs;
-using static EpicChainAPI.v2.Object.SearchRequest.Types.Body.Types;
+using EpicChain.API.v2.Refs;
+using static EpicChain.API.v2.Object.SearchRequest.Types.Body.Types;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace EpicChainAPI.v2.Object
+namespace EpicChain.API.v2.Object
 {
     public class SearchFilters
     {

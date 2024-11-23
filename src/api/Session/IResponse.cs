@@ -1,7 +1,7 @@
-using EpicChainAPI.v2.Session;
+using EpicChain.API.v2.Session;
 using Google.Protobuf;
 
-namespace EpicChainAPI.v2.Session
+namespace EpicChain.API.v2.Session
 {
     public interface IResponseMeta
     {

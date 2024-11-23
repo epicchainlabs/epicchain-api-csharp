@@ -1,10 +1,10 @@
-using EpicChainAPI.v2.Acl;
-using EpicChainAPI.v2.Cryptography;
-using EpicChainAPI.v2.Session;
+using EpicChain.API.v2.Acl;
+using EpicChain.API.v2.Cryptography;
+using EpicChain.API.v2.Session;
 using System;
 using System.Threading;
 
-namespace EpicChainAPI.v2.Client
+namespace EpicChain.API.v2.Client
 {
     public partial class Client
     {

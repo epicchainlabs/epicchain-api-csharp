@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace EpicChainAPI.v2.Refs {
+namespace EpicChain.API.v2.Refs {
 
   /// <summary>Holder for reflection information generated from refs/types.proto</summary>
   public static partial class TypesReflection {
@@ -40,14 +40,14 @@ namespace EpicChainAPI.v2.Refs {
             "TmVvRlMuQVBJLnYyLlJlZnNiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
-          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::EpicChainAPI.v2.Refs.ChecksumType), }, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::EpicChainAPI.v2.Refs.Address), global::EpicChainAPI.v2.Refs.Address.Parser, new[]{ "ContainerId", "ObjectId" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::EpicChainAPI.v2.Refs.ObjectID), global::EpicChainAPI.v2.Refs.ObjectID.Parser, new[]{ "Value" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::EpicChainAPI.v2.Refs.ContainerID), global::EpicChainAPI.v2.Refs.ContainerID.Parser, new[]{ "Value" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::EpicChainAPI.v2.Refs.OwnerID), global::EpicChainAPI.v2.Refs.OwnerID.Parser, new[]{ "Value" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::EpicChainAPI.v2.Refs.Version), global::EpicChainAPI.v2.Refs.Version.Parser, new[]{ "Major", "Minor" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::EpicChainAPI.v2.Refs.Signature), global::EpicChainAPI.v2.Refs.Signature.Parser, new[]{ "Key", "Sign" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::EpicChainAPI.v2.Refs.Checksum), global::EpicChainAPI.v2.Refs.Checksum.Parser, new[]{ "Type", "Sum" }, null, null, null, null)
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::EpicChain.API.v2.Refs.ChecksumType), }, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::EpicChain.API.v2.Refs.Address), global::EpicChain.API.v2.Refs.Address.Parser, new[]{ "ContainerId", "ObjectId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::EpicChain.API.v2.Refs.ObjectID), global::EpicChain.API.v2.Refs.ObjectID.Parser, new[]{ "Value" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::EpicChain.API.v2.Refs.ContainerID), global::EpicChain.API.v2.Refs.ContainerID.Parser, new[]{ "Value" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::EpicChain.API.v2.Refs.OwnerID), global::EpicChain.API.v2.Refs.OwnerID.Parser, new[]{ "Value" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::EpicChain.API.v2.Refs.Version), global::EpicChain.API.v2.Refs.Version.Parser, new[]{ "Major", "Minor" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::EpicChain.API.v2.Refs.Signature), global::EpicChain.API.v2.Refs.Signature.Parser, new[]{ "Key", "Sign" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::EpicChain.API.v2.Refs.Checksum), global::EpicChain.API.v2.Refs.Checksum.Parser, new[]{ "Type", "Sum" }, null, null, null, null)
           }));
     }
     #endregion
@@ -89,7 +89,7 @@ namespace EpicChainAPI.v2.Refs {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::EpicChainAPI.v2.Refs.TypesReflection.Descriptor.MessageTypes[0]; }
+      get { return global::EpicChain.API.v2.Refs.TypesReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -118,12 +118,12 @@ namespace EpicChainAPI.v2.Refs {
 
     /// <summary>Field number for the "container_id" field.</summary>
     public const int ContainerIdFieldNumber = 1;
-    private global::EpicChainAPI.v2.Refs.ContainerID containerId_;
+    private global::EpicChain.API.v2.Refs.ContainerID containerId_;
     /// <summary>
     /// Container identifier
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::EpicChainAPI.v2.Refs.ContainerID ContainerId {
+    public global::EpicChain.API.v2.Refs.ContainerID ContainerId {
       get { return containerId_; }
       set {
         containerId_ = value;
@@ -132,12 +132,12 @@ namespace EpicChainAPI.v2.Refs {
 
     /// <summary>Field number for the "object_id" field.</summary>
     public const int ObjectIdFieldNumber = 2;
-    private global::EpicChainAPI.v2.Refs.ObjectID objectId_;
+    private global::EpicChain.API.v2.Refs.ObjectID objectId_;
     /// <summary>
     /// Object identifier
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::EpicChainAPI.v2.Refs.ObjectID ObjectId {
+    public global::EpicChain.API.v2.Refs.ObjectID ObjectId {
       get { return objectId_; }
       set {
         objectId_ = value;
@@ -215,13 +215,13 @@ namespace EpicChainAPI.v2.Refs {
       }
       if (other.containerId_ != null) {
         if (containerId_ == null) {
-          ContainerId = new global::EpicChainAPI.v2.Refs.ContainerID();
+          ContainerId = new global::EpicChain.API.v2.Refs.ContainerID();
         }
         ContainerId.MergeFrom(other.ContainerId);
       }
       if (other.objectId_ != null) {
         if (objectId_ == null) {
-          ObjectId = new global::EpicChainAPI.v2.Refs.ObjectID();
+          ObjectId = new global::EpicChain.API.v2.Refs.ObjectID();
         }
         ObjectId.MergeFrom(other.ObjectId);
       }
@@ -238,14 +238,14 @@ namespace EpicChainAPI.v2.Refs {
             break;
           case 10: {
             if (containerId_ == null) {
-              ContainerId = new global::EpicChainAPI.v2.Refs.ContainerID();
+              ContainerId = new global::EpicChain.API.v2.Refs.ContainerID();
             }
             input.ReadMessage(ContainerId);
             break;
           }
           case 18: {
             if (objectId_ == null) {
-              ObjectId = new global::EpicChainAPI.v2.Refs.ObjectID();
+              ObjectId = new global::EpicChain.API.v2.Refs.ObjectID();
             }
             input.ReadMessage(ObjectId);
             break;
@@ -282,7 +282,7 @@ namespace EpicChainAPI.v2.Refs {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::EpicChainAPI.v2.Refs.TypesReflection.Descriptor.MessageTypes[1]; }
+      get { return global::EpicChain.API.v2.Refs.TypesReflection.Descriptor.MessageTypes[1]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -431,7 +431,7 @@ namespace EpicChainAPI.v2.Refs {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::EpicChainAPI.v2.Refs.TypesReflection.Descriptor.MessageTypes[2]; }
+      get { return global::EpicChain.API.v2.Refs.TypesReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -580,7 +580,7 @@ namespace EpicChainAPI.v2.Refs {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::EpicChainAPI.v2.Refs.TypesReflection.Descriptor.MessageTypes[3]; }
+      get { return global::EpicChain.API.v2.Refs.TypesReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -718,7 +718,7 @@ namespace EpicChainAPI.v2.Refs {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::EpicChainAPI.v2.Refs.TypesReflection.Descriptor.MessageTypes[4]; }
+      get { return global::EpicChain.API.v2.Refs.TypesReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -874,7 +874,7 @@ namespace EpicChainAPI.v2.Refs {
   }
 
   /// <summary>
-  /// Signature of something in EpicChain
+  /// Signature of something in EpicChain.
   /// </summary>
   public sealed partial class Signature : pb::IMessage<Signature> {
     private static readonly pb::MessageParser<Signature> _parser = new pb::MessageParser<Signature>(() => new Signature());
@@ -884,7 +884,7 @@ namespace EpicChainAPI.v2.Refs {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::EpicChainAPI.v2.Refs.TypesReflection.Descriptor.MessageTypes[5]; }
+      get { return global::EpicChain.API.v2.Refs.TypesReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1056,7 +1056,7 @@ namespace EpicChainAPI.v2.Refs {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::EpicChainAPI.v2.Refs.TypesReflection.Descriptor.MessageTypes[6]; }
+      get { return global::EpicChain.API.v2.Refs.TypesReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1085,12 +1085,12 @@ namespace EpicChainAPI.v2.Refs {
 
     /// <summary>Field number for the "type" field.</summary>
     public const int TypeFieldNumber = 1;
-    private global::EpicChainAPI.v2.Refs.ChecksumType type_ = global::EpicChainAPI.v2.Refs.ChecksumType.Unspecified;
+    private global::EpicChain.API.v2.Refs.ChecksumType type_ = global::EpicChain.API.v2.Refs.ChecksumType.Unspecified;
     /// <summary>
     /// Checksum algorithm type
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::EpicChainAPI.v2.Refs.ChecksumType Type {
+    public global::EpicChain.API.v2.Refs.ChecksumType Type {
       get { return type_; }
       set {
         type_ = value;
@@ -1132,7 +1132,7 @@ namespace EpicChainAPI.v2.Refs {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (Type != global::EpicChainAPI.v2.Refs.ChecksumType.Unspecified) hash ^= Type.GetHashCode();
+      if (Type != global::EpicChain.API.v2.Refs.ChecksumType.Unspecified) hash ^= Type.GetHashCode();
       if (Sum.Length != 0) hash ^= Sum.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -1147,7 +1147,7 @@ namespace EpicChainAPI.v2.Refs {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
-      if (Type != global::EpicChainAPI.v2.Refs.ChecksumType.Unspecified) {
+      if (Type != global::EpicChain.API.v2.Refs.ChecksumType.Unspecified) {
         output.WriteRawTag(8);
         output.WriteEnum((int) Type);
       }
@@ -1163,7 +1163,7 @@ namespace EpicChainAPI.v2.Refs {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (Type != global::EpicChainAPI.v2.Refs.ChecksumType.Unspecified) {
+      if (Type != global::EpicChain.API.v2.Refs.ChecksumType.Unspecified) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Type);
       }
       if (Sum.Length != 0) {
@@ -1180,7 +1180,7 @@ namespace EpicChainAPI.v2.Refs {
       if (other == null) {
         return;
       }
-      if (other.Type != global::EpicChainAPI.v2.Refs.ChecksumType.Unspecified) {
+      if (other.Type != global::EpicChain.API.v2.Refs.ChecksumType.Unspecified) {
         Type = other.Type;
       }
       if (other.Sum.Length != 0) {
@@ -1198,7 +1198,7 @@ namespace EpicChainAPI.v2.Refs {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 8: {
-            Type = (global::EpicChainAPI.v2.Refs.ChecksumType) input.ReadEnum();
+            Type = (global::EpicChain.API.v2.Refs.ChecksumType) input.ReadEnum();
             break;
           }
           case 18: {

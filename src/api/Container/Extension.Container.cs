@@ -1,9 +1,9 @@
 using Google.Protobuf;
-using EpicChainAPI.v2.Refs;
-using EpicChainAPI.v2.Cryptography;
+using EpicChain.API.v2.Refs;
+using EpicChain.API.v2.Cryptography;
 using System;
 
-namespace EpicChainAPI.v2.Container
+namespace EpicChain.API.v2.Container
 {
     public partial class Container
     {

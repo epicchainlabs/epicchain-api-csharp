@@ -1,9 +1,9 @@
 using Google.Protobuf;
 using EpicChain.Cryptography;
-using EpicChainAPI.v2.Refs;
+using EpicChain.API.v2.Refs;
 using System.Buffers.Binary;
 
-namespace EpicChainAPI.v2.Cryptography
+namespace EpicChain.API.v2.Cryptography
 {
     public static class Crypto
     {

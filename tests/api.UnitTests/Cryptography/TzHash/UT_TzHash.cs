@@ -1,10 +1,10 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using EpicChainAPI.v2.Cryptography.Tz;
+using EpicChain.API.v2.Cryptography.Tz;
 using System;
 using System.Linq;
 using System.Security.Cryptography;
 
-namespace EpicChainAPI.v2.UnitTests.TestCryptography.Tz
+namespace EpicChain.API.v2.UnitTests.TestCryptography.Tz
 {
     [TestClass]
     public class UT_TzHash

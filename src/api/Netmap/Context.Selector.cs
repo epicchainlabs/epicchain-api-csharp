@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Akka;
 
-namespace EpicChainAPI.v2.Netmap
+namespace EpicChain.API.v2.Netmap
 {
     public partial class Context
     {

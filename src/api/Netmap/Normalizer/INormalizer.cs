@@ -1,5 +1,5 @@
 
-namespace EpicChainAPI.v2.Netmap.Normalize
+namespace EpicChain.API.v2.Netmap.Normalize
 {
     public interface INormalizer
     {

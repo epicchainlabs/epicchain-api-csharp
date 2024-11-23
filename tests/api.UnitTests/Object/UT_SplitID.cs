@@ -1,11 +1,11 @@
 
 
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using EpicChainAPI.v2.Refs;
-using EpicChainAPI.v2.Object;
+using EpicChain.API.v2.Refs;
+using EpicChain.API.v2.Object;
 using System;
 
-namespace EpicChainAPI.v2.UnitTests.TestObject
+namespace EpicChain.API.v2.UnitTests.TestObject
 {
     [TestClass]
     public class UT_SplitID

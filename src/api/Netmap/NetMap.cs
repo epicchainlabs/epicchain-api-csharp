@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using EpicChainAPI.v2.Cryptography;
+using EpicChain.API.v2.Cryptography;
 
-namespace EpicChainAPI.v2.Netmap
+namespace EpicChain.API.v2.Netmap
 {
     public class NetMap
     {

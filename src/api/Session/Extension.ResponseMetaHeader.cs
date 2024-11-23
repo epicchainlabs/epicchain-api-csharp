@@ -1,6 +1,6 @@
-using EpicChainAPI.v2.Refs;
+using EpicChain.API.v2.Refs;
 
-namespace EpicChainAPI.v2.Session
+namespace EpicChain.API.v2.Session
 {
     public partial class ResponseMetaHeader
     {
