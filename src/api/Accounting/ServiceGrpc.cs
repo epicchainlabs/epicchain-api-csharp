@@ -40,7 +40,7 @@ namespace EpicChain.API.v2.Accounting {
     public abstract partial class AccountingServiceBase
     {
       /// <summary>
-      /// Returns the amount of funds in GAS token for the requested EpicChain account.
+      /// Returns the amount of funds in EpicPulse token for the requested EpicChain account.
       /// </summary>
       /// <param name="request">The request received from the client.</param>
       /// <param name="context">The context of the server-side call handler being invoked.</param>
@@ -76,7 +76,7 @@ namespace EpicChain.API.v2.Accounting {
       }
 
       /// <summary>
-      /// Returns the amount of funds in GAS token for the requested EpicChain account.
+      /// Returns the amount of funds in EpicPulse token for the requested EpicChain account.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -88,7 +88,7 @@ namespace EpicChain.API.v2.Accounting {
         return Balance(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Returns the amount of funds in GAS token for the requested EpicChain account.
+      /// Returns the amount of funds in EpicPulse token for the requested EpicChain account.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -98,7 +98,7 @@ namespace EpicChain.API.v2.Accounting {
         return CallInvoker.BlockingUnaryCall(__Method_Balance, null, options, request);
       }
       /// <summary>
-      /// Returns the amount of funds in GAS token for the requested EpicChain account.
+      /// Returns the amount of funds in EpicPulse token for the requested EpicChain account.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -110,7 +110,7 @@ namespace EpicChain.API.v2.Accounting {
         return BalanceAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Returns the amount of funds in GAS token for the requested EpicChain account.
+      /// Returns the amount of funds in EpicPulse token for the requested EpicChain account.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>

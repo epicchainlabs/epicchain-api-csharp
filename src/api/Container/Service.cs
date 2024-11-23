@@ -1152,7 +1152,7 @@ namespace EpicChain.API.v2.Container {
       /// <summary>
       /// Container removal request body has a signed `ContainerID` as a proof of
       /// container owner's intent. The signature will be verified by `Container`
-      /// smart contract, so signing algorithm must be supported by NeoVM.
+      /// smart contract, so signing algorithm must be supported by EpicChainVM.
       /// </summary>
       public sealed partial class Body : pb::IMessage<Body> {
         private static readonly pb::MessageParser<Body> _parser = new pb::MessageParser<Body>(() => new Body());
