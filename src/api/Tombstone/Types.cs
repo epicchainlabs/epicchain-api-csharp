@@ -43,7 +43,7 @@ namespace EpicChain.API.v2.Tombstone {
   #region Messages
   /// <summary>
   /// Tombstone keeps record of deleted objects for few epochs until they are
-  /// purged from the NeoFS network.
+  /// purged from the EpicChain network.
   /// </summary>
   public sealed partial class Tombstone : pb::IMessage<Tombstone> {
     private static readonly pb::MessageParser<Tombstone> _parser = new pb::MessageParser<Tombstone>(() => new Tombstone());
@@ -85,8 +85,8 @@ namespace EpicChain.API.v2.Tombstone {
     public const int ExpirationEpochFieldNumber = 1;
     private ulong expirationEpoch_;
     /// <summary>
-    /// Last NeoFS epoch number of the tombstone lifetime. It's set by tombstone
-    /// creator depending on current NeoFS network settings.
+    /// Last EpicChain epoch number of the tombstone lifetime. It's set by tombstone
+    /// creator depending on current EpicChain network settings.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public ulong ExpirationEpoch {

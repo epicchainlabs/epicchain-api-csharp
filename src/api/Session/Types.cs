@@ -306,7 +306,7 @@ namespace EpicChain.API.v2.Session {
   }
 
   /// <summary>
-  /// NeoFS Session Token.
+  /// EpicChain Session Token.
   /// </summary>
   public sealed partial class SessionToken : pb::IMessage<SessionToken> {
     private static readonly pb::MessageParser<SessionToken> _parser = new pb::MessageParser<SessionToken>(() => new SessionToken());
@@ -349,7 +349,7 @@ namespace EpicChain.API.v2.Session {
     /// <summary>
     /// Session Token contains the proof of trust between peers to be attached in
     /// requests for further verification. Please see corresponding section of
-    /// NeoFS Technical Specification for details.
+    /// EpicChain Technical Specification for details.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::EpicChain.API.v2.Session.SessionToken.Types.Body Body {
@@ -1011,14 +1011,14 @@ namespace EpicChain.API.v2.Session {
   /// Responses with duplicated header names or headers with empty values will be
   /// considered invalid.
   ///
-  /// There are some "well-known" headers starting with `__NEOFS__` prefix that
+  /// There are some "well-known" headers starting with `__EpicChain__` prefix that
   /// affect system behaviour:
   ///
-  /// * __NEOFS__NETMAP_EPOCH \
+  /// * __EpicChain__NETMAP_EPOCH \
   ///   Netmap epoch to use for object placement calculation. The `value` is string
   ///   encoded `uint64` in decimal presentation. If set to '0' or not set, the
   ///   current epoch only will be used.
-  /// * __NEOFS__NETMAP_LOOKUP_DEPTH \
+  /// * __EpicChain__NETMAP_LOOKUP_DEPTH \
   ///   If object can't be found using current epoch's netmap, this header limits
   ///   how many past epochs back the node can lookup. The `value` is string
   ///   encoded `uint64` in decimal presentation. If set to '0' or not set, the

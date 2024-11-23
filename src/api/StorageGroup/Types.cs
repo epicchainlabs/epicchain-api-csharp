@@ -120,7 +120,7 @@ namespace EpicChain.API.v2.StorageGroup {
     public const int ExpirationEpochFieldNumber = 3;
     private ulong expirationEpoch_;
     /// <summary>
-    /// Last NeoFS epoch number of the storage group lifetime
+    /// Last EpicChain epoch number of the storage group lifetime
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public ulong ExpirationEpoch {

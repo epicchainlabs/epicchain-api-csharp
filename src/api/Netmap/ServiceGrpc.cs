@@ -12,7 +12,7 @@ namespace EpicChain.API.v2.Netmap {
   /// `NetmapService` provides methods to work with `Network Map` and information
   /// required to build it. The resulting `Network Map` is stored in sidechain
   /// `Netmap` smart contract, while related information can be obtained from other
-  /// NeoFS nodes.
+  /// EpicChain nodes.
   /// </summary>
   public static partial class NetmapService
   {

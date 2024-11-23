@@ -150,7 +150,7 @@ namespace EpicChain.API.v2.Object {
 
       /// <summary>
       /// Search objects in container. Search query allows to match by Object
-      /// Header's filed values. Please see the corresponding NeoFS Technical
+      /// Header's filed values. Please see the corresponding EpicChain Technical
       /// Specification section for more details.
       /// </summary>
       /// <param name="request">The request received from the client.</param>
@@ -380,7 +380,7 @@ namespace EpicChain.API.v2.Object {
       }
       /// <summary>
       /// Search objects in container. Search query allows to match by Object
-      /// Header's filed values. Please see the corresponding NeoFS Technical
+      /// Header's filed values. Please see the corresponding EpicChain Technical
       /// Specification section for more details.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
@@ -394,7 +394,7 @@ namespace EpicChain.API.v2.Object {
       }
       /// <summary>
       /// Search objects in container. Search query allows to match by Object
-      /// Header's filed values. Please see the corresponding NeoFS Technical
+      /// Header's filed values. Please see the corresponding EpicChain Technical
       /// Specification section for more details.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>

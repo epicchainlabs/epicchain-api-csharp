@@ -365,7 +365,7 @@ namespace EpicChain.API.v2.Container {
       ///
       /// There are some "well-known" attributes affecting system behaviour:
       ///
-      /// * __NEOFS__SUBNET \
+      /// * __EpicChain__SUBNET \
       ///   String ID of container's storage subnet. Container can be attached to
       ///   only one subnet.
       ///

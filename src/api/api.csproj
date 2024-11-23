@@ -7,16 +7,16 @@
     <Authors>The Neo Project</Authors>
     <TargetFramework>net5.0</TargetFramework>
     <PackageId>EpicChain.API</PackageId>
-    <PackageTags>NEO;NeoFS</PackageTags>
-    <PackageProjectUrl>https://github.com/neo-project/neofs-api-csharp</PackageProjectUrl>
+    <PackageTags>NEO;EpicChain</PackageTags>
+    <PackageProjectUrl>https://github.com/neo-project/EpicChain-api-csharp</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/neo-project/neofs-api-csharp.git</RepositoryUrl>
+    <RepositoryUrl>https://github.com/neo-project/EpicChain-api-csharp.git</RepositoryUrl>
     <RootNamespace>EpicChain.API</RootNamespace>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
     <Company>The Neo Project</Company>
-    <Description>NeoFS API for CSharp</Description>
+    <Description>EpicChain API for CSharp</Description>
   </PropertyGroup>
 
   <ItemGroup>

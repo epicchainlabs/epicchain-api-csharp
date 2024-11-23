@@ -10,7 +10,7 @@ using grpc = global::Grpc.Core;
 namespace EpicChain.API.v2.Container {
   /// <summary>
   /// `ContainerService` provides API to interact with `Container` smart contract
-  /// in NeoFS sidechain via other NeoFS nodes. All of those actions can be done
+  /// in EpicChain sidechain via other EpicChain nodes. All of those actions can be done
   /// equivalently by directly issuing transactions and RPC calls to sidechain
   /// nodes.
   /// </summary>

@@ -875,7 +875,7 @@ namespace EpicChain.API.v2.Netmap {
     public const int ContainerBackupFactorFieldNumber = 2;
     private uint containerBackupFactor_;
     /// <summary>
-    /// Container backup factor controls how deep NeoFS will search for nodes
+    /// Container backup factor controls how deep EpicChain will search for nodes
     /// alternatives to include into container's nodes subset
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1024,7 +1024,7 @@ namespace EpicChain.API.v2.Netmap {
   }
 
   /// <summary>
-  /// NeoFS node description
+  /// EpicChain node description
   /// </summary>
   public sealed partial class NodeInfo : pb::IMessage<NodeInfo> {
     private static readonly pb::MessageParser<NodeInfo> _parser = new pb::MessageParser<NodeInfo>(() => new NodeInfo());
@@ -1067,7 +1067,7 @@ namespace EpicChain.API.v2.Netmap {
     public const int PublicKeyFieldNumber = 1;
     private pb::ByteString publicKey_ = pb::ByteString.Empty;
     /// <summary>
-    /// Public key of the NeoFS node in a binary format.
+    /// Public key of the EpicChain node in a binary format.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pb::ByteString PublicKey {
@@ -1097,7 +1097,7 @@ namespace EpicChain.API.v2.Netmap {
         = pb::FieldCodec.ForMessage(26, global::EpicChain.API.v2.Netmap.NodeInfo.Types.Attribute.Parser);
     private readonly pbc::RepeatedField<global::EpicChain.API.v2.Netmap.NodeInfo.Types.Attribute> attributes_ = new pbc::RepeatedField<global::EpicChain.API.v2.Netmap.NodeInfo.Types.Attribute>();
     /// <summary>
-    /// Carries list of the NeoFS node attributes in a key-value form. Key name
+    /// Carries list of the EpicChain node attributes in a key-value form. Key name
     /// must be a node-unique valid UTF-8 string. Value can't be empty. NodeInfo
     /// structures with duplicated attribute names or attributes with empty values
     /// will be considered invalid.
@@ -1111,7 +1111,7 @@ namespace EpicChain.API.v2.Netmap {
     public const int StateFieldNumber = 4;
     private global::EpicChain.API.v2.Netmap.NodeInfo.Types.State state_ = global::EpicChain.API.v2.Netmap.NodeInfo.Types.State.Unspecified;
     /// <summary>
-    /// Carries state of the NeoFS node.
+    /// Carries state of the EpicChain node.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::EpicChain.API.v2.Netmap.NodeInfo.Types.State State {
@@ -1249,7 +1249,7 @@ namespace EpicChain.API.v2.Netmap {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static partial class Types {
       /// <summary>
-      /// Represents the enumeration of various states of the NeoFS node.
+      /// Represents the enumeration of various states of the EpicChain node.
       /// </summary>
       public enum State {
         /// <summary>
@@ -1267,7 +1267,7 @@ namespace EpicChain.API.v2.Netmap {
       }
 
       /// <summary>
-      /// Administrator-defined Attributes of the NeoFS Storage Node.
+      /// Administrator-defined Attributes of the EpicChain Storage Node.
       ///
       /// `Attribute` is a Key-Value metadata pair. Key name must be a valid UTF-8
       /// string. Value can't be empty.
@@ -1321,7 +1321,7 @@ namespace EpicChain.API.v2.Netmap {
       ///   automatically from `UN-LOCODE` attribute.
       ///
       /// For detailed description of each well-known attribute please see the
-      /// corresponding section in NeoFS Technical specification.
+      /// corresponding section in EpicChain Technical specification.
       /// </summary>
       public sealed partial class Attribute : pb::IMessage<Attribute> {
         private static readonly pb::MessageParser<Attribute> _parser = new pb::MessageParser<Attribute>(() => new Attribute());

@@ -645,7 +645,7 @@ namespace EpicChain.API.v2.Netmap {
         public const int VersionFieldNumber = 1;
         private global::EpicChain.API.v2.Refs.Version version_;
         /// <summary>
-        /// Latest NeoFS API version in use
+        /// Latest EpicChain API version in use
         /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public global::EpicChain.API.v2.Refs.Version Version {

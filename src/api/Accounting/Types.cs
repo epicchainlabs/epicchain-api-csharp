@@ -40,7 +40,7 @@ namespace EpicChain.API.v2.Accounting {
   }
   #region Messages
   /// <summary>
-  /// Standard floating point data type can't be used in NeoFS due to inexactness
+  /// Standard floating point data type can't be used in EpicChain due to inexactness
   /// of the result when doing lots of small number operations. To solve the lost
   /// precision issue, special `Decimal` format is used for monetary computations.
   ///

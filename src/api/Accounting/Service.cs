@@ -276,7 +276,7 @@ namespace EpicChain.API.v2.Accounting {
     public static partial class Types {
       /// <summary>
       /// To indicate the account for which the balance is requested, it's identifier
-      /// is used. It can be any existing account in NeoFS sidechain `Balance` smart
+      /// is used. It can be any existing account in EpicChain sidechain `Balance` smart
       /// contract. If omitted, client implementation MUST set it to the request's
       /// signer `OwnerID`.
       /// </summary>

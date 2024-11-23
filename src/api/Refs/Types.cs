@@ -76,7 +76,7 @@ namespace EpicChain.API.v2.Refs {
 
   #region Messages
   /// <summary>
-  /// Objects in NeoFS are addressed by their ContainerID and ObjectID.
+  /// Objects in EpicChain are addressed by their ContainerID and ObjectID.
   ///
   /// String presentation of `Address` is the concatenation of string encoded
   /// `ContainerID` and `ObjectID` delimited by '/' character.
@@ -257,7 +257,7 @@ namespace EpicChain.API.v2.Refs {
   }
 
   /// <summary>
-  /// NeoFS Object unique identifier. Objects are immutable and content-addressed.
+  /// EpicChain Object unique identifier. Objects are immutable and content-addressed.
   /// It means `ObjectID` will change if `header` or `payload` changes.
   ///
   /// `ObjectID` is a 32 byte long
@@ -407,7 +407,7 @@ namespace EpicChain.API.v2.Refs {
   }
 
   /// <summary>
-  /// NeoFS container identifier. Container structures are immutable and
+  /// EpicChain container identifier. Container structures are immutable and
   /// content-addressed.
   ///
   /// `ContainerID` is a 32 byte long

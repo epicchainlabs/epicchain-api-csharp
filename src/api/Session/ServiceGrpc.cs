@@ -12,7 +12,7 @@ namespace EpicChain.API.v2.Session {
   /// `SessionService` allows to establish a temporary trust relationship between
   /// two peer nodes and generate a `SessionToken` as the proof of trust to be
   /// attached in requests for further verification. Please see corresponding
-  /// section of NeoFS Technical Specification for details.
+  /// section of EpicChain Technical Specification for details.
   /// </summary>
   public static partial class SessionService
   {

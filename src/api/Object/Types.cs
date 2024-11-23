@@ -974,12 +974,12 @@ namespace EpicChain.API.v2.Object {
       /// Objects with duplicated attribute names or attributes with empty values
       /// will be considered invalid.
       ///
-      /// There are some "well-known" attributes starting with `__NEOFS__` prefix
+      /// There are some "well-known" attributes starting with `__EpicChain__` prefix
       /// that affect system behaviour:
       ///
-      /// * __NEOFS__UPLOAD_ID \
+      /// * __EpicChain__UPLOAD_ID \
       ///   Marks smaller parts of a split bigger object
-      /// * __NEOFS__EXPIRATION_EPOCH \
+      /// * __EpicChain__EXPIRATION_EPOCH \
       ///   Tells GC to delete object after that epoch
       ///
       /// And some well-known attributes used by applications only:
@@ -992,7 +992,7 @@ namespace EpicChain.API.v2.Object {
       ///   User-defined local time of object creation in Unix Timestamp format
       ///
       /// For detailed description of each well-known attribute please see the
-      /// corresponding section in NeoFS Technical specification.
+      /// corresponding section in EpicChain Technical specification.
       /// </summary>
       public sealed partial class Attribute : pb::IMessage<Attribute> {
         private static readonly pb::MessageParser<Attribute> _parser = new pb::MessageParser<Attribute>(() => new Attribute());

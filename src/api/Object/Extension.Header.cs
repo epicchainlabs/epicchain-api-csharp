@@ -7,7 +7,7 @@ namespace EpicChain.API.v2.Object
             public sealed partial class Attribute
             {
                 // SysAttributePrefix is a prefix of key to system attribute.
-                public const string SysAttributePrefix = "__NEOFS__";
+                public const string SysAttributePrefix = "__EpicChain__";
 
                 // SysAttributeUploadID marks smaller parts of a split bigger object.
                 public const string SysAttributeUploadID = SysAttributePrefix + "UPLOAD_ID";

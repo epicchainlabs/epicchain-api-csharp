@@ -46,7 +46,7 @@ namespace EpicChain.API.v2.Container
             public sealed partial class Attribute
             {
                 // SysAttributePrefix is a prefix of key to system attribute.
-                public const string SysAttributePrefix = "__NEOFS__";
+                public const string SysAttributePrefix = "__EpicChain__";
 
                 // SysAttributeSubnet is a string ID of container's storage subnet.
                 public const string SysAttributeSubnet = SysAttributePrefix + "SUBNET";

@@ -236,7 +236,7 @@ namespace EpicChain.API.v2.Acl {
     public const int OperationFieldNumber = 1;
     private global::EpicChain.API.v2.Acl.Operation operation_ = 0;
     /// <summary>
-    /// NeoFS request Verb to match
+    /// EpicChain request Verb to match
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::EpicChain.API.v2.Acl.Operation Operation {
@@ -831,7 +831,7 @@ namespace EpicChain.API.v2.Acl {
   /// Extended ACL rules table. Defined a list of ACL rules additionally to Basic
   /// ACL. Extended ACL rules can be attached to the container and can be updated
   /// or may be defined in `BearerToken` structure. Please see the corresponding
-  /// NeoFS Technical Specification's section for detailed description.
+  /// EpicChain Technical Specification's section for detailed description.
   /// </summary>
   public sealed partial class EACLTable : pb::IMessage<EACLTable> {
     private static readonly pb::MessageParser<EACLTable> _parser = new pb::MessageParser<EACLTable>(() => new EACLTable());
