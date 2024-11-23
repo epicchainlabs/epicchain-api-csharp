@@ -2,19 +2,19 @@ using Google.Protobuf;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Neo;
 using EpicChain.Cryptography;
-using NeoFS.API.v2.Client;
-using NeoFS.API.v2.Client.ObjectParams;
-using NeoFS.API.v2.Cryptography;
-using NeoFS.API.v2.Refs;
-using NeoFS.API.v2.Object;
-using V2Object = NeoFS.API.v2.Object.Object;
+using EpicChainAPI.v2.Client;
+using EpicChainAPI.v2.Client.ObjectParams;
+using EpicChainAPI.v2.Cryptography;
+using EpicChainAPI.v2.Refs;
+using EpicChainAPI.v2.Object;
+using V2Object = EpicChainAPI.v2.Object.Object;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Linq;
 using System.Threading;
 
-namespace NeoFS.API.v2.UnitTests.FSClient
+namespace EpicChainAPI.v2.UnitTests.FSClient
 {
     [TestClass]
     public class UT_Object

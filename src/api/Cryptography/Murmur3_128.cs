@@ -3,7 +3,7 @@ using System.Buffers.Binary;
 using System.Runtime.CompilerServices;
 using System.Security.Cryptography;
 
-namespace NeoFS.API.v2.Cryptography
+namespace EpicChainAPI.v2.Cryptography
 {
     public sealed class Murmur3_128 : HashAlgorithm
     {

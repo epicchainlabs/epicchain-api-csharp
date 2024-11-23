@@ -1,6 +1,6 @@
 using System;
 
-namespace NeoFS.API.v2.Object.Exceptions
+namespace EpicChainAPI.v2.Object.Exceptions
 {
     public class SplitInfoException : Exception
     {

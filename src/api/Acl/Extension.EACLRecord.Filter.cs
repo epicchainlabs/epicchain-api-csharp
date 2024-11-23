@@ -1,5 +1,5 @@
 
-namespace NeoFS.API.v2.Acl
+namespace EpicChainAPI.v2.Acl
 {
     public sealed partial class EACLRecord
     {

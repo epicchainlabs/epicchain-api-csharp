@@ -1,6 +1,6 @@
-using NeoFS.API.v2.Acl;
+using EpicChainAPI.v2.Acl;
 
-namespace NeoFS.API.v2.Session
+namespace EpicChainAPI.v2.Session
 {
     public static partial class SessionExtension
     {

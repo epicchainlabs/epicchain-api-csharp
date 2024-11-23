@@ -1,4 +1,4 @@
-namespace NeoFS.API.v2.Object
+namespace EpicChainAPI.v2.Object
 {
     public sealed partial class Header
     {

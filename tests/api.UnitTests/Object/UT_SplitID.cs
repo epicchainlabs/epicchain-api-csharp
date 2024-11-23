@@ -1,11 +1,11 @@
 
 
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using NeoFS.API.v2.Refs;
-using NeoFS.API.v2.Object;
+using EpicChainAPI.v2.Refs;
+using EpicChainAPI.v2.Object;
 using System;
 
-namespace NeoFS.API.v2.UnitTests.TestObject
+namespace EpicChainAPI.v2.UnitTests.TestObject
 {
     [TestClass]
     public class UT_SplitID

@@ -1,8 +1,8 @@
 using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using NeoFS.API.v2.Netmap;
+using EpicChainAPI.v2.Netmap;
 
-namespace NeoFS.API.v2.UnitTests.TestNetmap
+namespace EpicChainAPI.v2.UnitTests.TestNetmap
 {
     [TestClass]
     public class UT_Policy

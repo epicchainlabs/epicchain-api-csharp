@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace NeoFS.API.v2.Tombstone {
+namespace EpicChainAPI.v2.Tombstone {
 
   /// <summary>Holder for reflection information generated from tombstone/types.proto</summary>
   public static partial class TypesReflection {
@@ -32,9 +32,9 @@ namespace NeoFS.API.v2.Tombstone {
             "b2ZzLWFwaS1nby92Mi90b21ic3RvbmUvZ3JwYzt0b21ic3RvbmWqAhZOZW9G",
             "Uy5BUEkudjIuVG9tYnN0b25lYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::NeoFS.API.v2.Refs.TypesReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::EpicChainAPI.v2.Refs.TypesReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::NeoFS.API.v2.Tombstone.Tombstone), global::NeoFS.API.v2.Tombstone.Tombstone.Parser, new[]{ "ExpirationEpoch", "SplitId", "Members" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::EpicChainAPI.v2.Tombstone.Tombstone), global::EpicChainAPI.v2.Tombstone.Tombstone.Parser, new[]{ "ExpirationEpoch", "SplitId", "Members" }, null, null, null, null)
           }));
     }
     #endregion
@@ -53,7 +53,7 @@ namespace NeoFS.API.v2.Tombstone {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::NeoFS.API.v2.Tombstone.TypesReflection.Descriptor.MessageTypes[0]; }
+      get { return global::EpicChainAPI.v2.Tombstone.TypesReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -114,14 +114,14 @@ namespace NeoFS.API.v2.Tombstone {
 
     /// <summary>Field number for the "members" field.</summary>
     public const int MembersFieldNumber = 3;
-    private static readonly pb::FieldCodec<global::NeoFS.API.v2.Refs.ObjectID> _repeated_members_codec
-        = pb::FieldCodec.ForMessage(26, global::NeoFS.API.v2.Refs.ObjectID.Parser);
-    private readonly pbc::RepeatedField<global::NeoFS.API.v2.Refs.ObjectID> members_ = new pbc::RepeatedField<global::NeoFS.API.v2.Refs.ObjectID>();
+    private static readonly pb::FieldCodec<global::EpicChainAPI.v2.Refs.ObjectID> _repeated_members_codec
+        = pb::FieldCodec.ForMessage(26, global::EpicChainAPI.v2.Refs.ObjectID.Parser);
+    private readonly pbc::RepeatedField<global::EpicChainAPI.v2.Refs.ObjectID> members_ = new pbc::RepeatedField<global::EpicChainAPI.v2.Refs.ObjectID>();
     /// <summary>
     /// List of objects to be deleted.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::NeoFS.API.v2.Refs.ObjectID> Members {
+    public pbc::RepeatedField<global::EpicChainAPI.v2.Refs.ObjectID> Members {
       get { return members_; }
     }
 

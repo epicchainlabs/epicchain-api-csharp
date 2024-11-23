@@ -1,5 +1,5 @@
 
-namespace NeoFS.API.v2.Object
+namespace EpicChainAPI.v2.Object
 {
     public partial class SearchRequest
     {

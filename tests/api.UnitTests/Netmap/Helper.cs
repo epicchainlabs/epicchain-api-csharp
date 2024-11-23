@@ -1,6 +1,6 @@
-using NeoFS.API.v2.Netmap;
+using EpicChainAPI.v2.Netmap;
 
-namespace NeoFS.API.v2.UnitTests.TestNetmap
+namespace EpicChainAPI.v2.UnitTests.TestNetmap
 {
     public static class Helper
     {

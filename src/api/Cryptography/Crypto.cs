@@ -1,9 +1,9 @@
 using Google.Protobuf;
 using EpicChain.Cryptography;
-using NeoFS.API.v2.Refs;
+using EpicChainAPI.v2.Refs;
 using System.Buffers.Binary;
 
-namespace NeoFS.API.v2.Cryptography
+namespace EpicChainAPI.v2.Cryptography
 {
     public static class Crypto
     {

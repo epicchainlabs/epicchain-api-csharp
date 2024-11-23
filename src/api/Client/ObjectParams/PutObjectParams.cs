@@ -1,7 +1,7 @@
-using V2Object = NeoFS.API.v2.Object.Object;
-using NeoFS.API.v2.Refs;
+using V2Object = EpicChainAPI.v2.Object.Object;
+using EpicChainAPI.v2.Refs;
 
-namespace NeoFS.API.v2.Client.ObjectParams
+namespace EpicChainAPI.v2.Client.ObjectParams
 {
     public class PutObjectParams
     {

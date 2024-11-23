@@ -1,18 +1,18 @@
 using Google.Protobuf;
 using Grpc.Core;
-using NeoFS.API.v2.Client.ObjectParams;
-using NeoFS.API.v2.Cryptography;
-using NeoFS.API.v2.Object;
-using NeoFS.API.v2.Object.Exceptions;
-using NeoFS.API.v2.Refs;
-using NeoFS.API.v2.Session;
+using EpicChainAPI.v2.Client.ObjectParams;
+using EpicChainAPI.v2.Cryptography;
+using EpicChainAPI.v2.Object;
+using EpicChainAPI.v2.Object.Exceptions;
+using EpicChainAPI.v2.Refs;
+using EpicChainAPI.v2.Session;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace NeoFS.API.v2.Client
+namespace EpicChainAPI.v2.Client
 {
     public partial class Client
     {

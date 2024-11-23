@@ -3,11 +3,11 @@ using System.Linq;
 using System.Text;
 using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using NeoFS.API.v2.Netmap;
-using NeoFS.API.v2.Netmap.Aggregator;
-using NeoFS.API.v2.Netmap.Normalize;
+using EpicChainAPI.v2.Netmap;
+using EpicChainAPI.v2.Netmap.Aggregator;
+using EpicChainAPI.v2.Netmap.Normalize;
 
-namespace NeoFS.API.v2.UnitTests.TestNetmap
+namespace EpicChainAPI.v2.UnitTests.TestNetmap
 {
     public class SelectorTestCase
     {

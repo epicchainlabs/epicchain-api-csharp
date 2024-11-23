@@ -1,12 +1,12 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using NeoFS.API.v2.Acl;
-using NeoFS.API.v2.Cryptography;
-using NeoFS.API.v2.Netmap;
-using NeoFS.API.v2.Refs;
+using EpicChainAPI.v2.Acl;
+using EpicChainAPI.v2.Cryptography;
+using EpicChainAPI.v2.Netmap;
+using EpicChainAPI.v2.Refs;
 using System;
 using System.Threading;
 
-namespace NeoFS.API.v2.UnitTests.FSClient
+namespace EpicChainAPI.v2.UnitTests.FSClient
 {
     [TestClass]
     public class UT_Container

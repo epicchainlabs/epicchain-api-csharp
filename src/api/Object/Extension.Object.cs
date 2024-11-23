@@ -1,10 +1,10 @@
 using Google.Protobuf;
-using NeoFS.API.v2.Refs;
-using NeoFS.API.v2.Cryptography;
+using EpicChainAPI.v2.Refs;
+using EpicChainAPI.v2.Cryptography;
 using System.Security.Cryptography;
 using System.Linq;
 
-namespace NeoFS.API.v2.Object
+namespace EpicChainAPI.v2.Object
 {
     public partial class Object
     {

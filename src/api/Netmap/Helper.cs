@@ -1,10 +1,10 @@
 using System.Collections.Generic;
 using System;
 using System.Linq;
-using NeoFS.API.v2.Netmap.Normalize;
-using NeoFS.API.v2.Netmap.Aggregator;
+using EpicChainAPI.v2.Netmap.Normalize;
+using EpicChainAPI.v2.Netmap.Aggregator;
 
-namespace NeoFS.API.v2.Netmap
+namespace EpicChainAPI.v2.Netmap
 {
     public static class Helper
     {

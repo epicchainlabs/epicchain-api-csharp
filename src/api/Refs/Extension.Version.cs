@@ -1,5 +1,5 @@
 
-namespace NeoFS.API.v2.Refs
+namespace EpicChainAPI.v2.Refs
 {
     public partial class Version
     {

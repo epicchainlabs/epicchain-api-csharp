@@ -1,11 +1,11 @@
 using Google.Protobuf;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Neo;
-using NeoFS.API.v2.Refs;
-using NeoFS.API.v2.Cryptography;
+using EpicChainAPI.v2.Refs;
+using EpicChainAPI.v2.Cryptography;
 using System;
 
-namespace NeoFS.API.v2.UnitTests.TestRefs
+namespace EpicChainAPI.v2.UnitTests.TestRefs
 {
     [TestClass]
     public class UT_Refs

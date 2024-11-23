@@ -1,9 +1,9 @@
 using Google.Protobuf;
-using NeoFS.API.v2.Refs;
-using NeoFS.API.v2.Cryptography;
+using EpicChainAPI.v2.Refs;
+using EpicChainAPI.v2.Cryptography;
 using System;
 
-namespace NeoFS.API.v2.Container
+namespace EpicChainAPI.v2.Container
 {
     public partial class Container
     {

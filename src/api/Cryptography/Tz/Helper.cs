@@ -3,7 +3,7 @@ using System.Globalization;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace NeoFS.API.v2.Cryptography.Tz
+namespace EpicChainAPI.v2.Cryptography.Tz
 {
     public static class Helper
     {

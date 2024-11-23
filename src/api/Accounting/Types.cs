@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace NeoFS.API.v2.Accounting {
+namespace EpicChainAPI.v2.Accounting {
 
   /// <summary>Holder for reflection information generated from accounting/types.proto</summary>
   public static partial class TypesReflection {
@@ -32,7 +32,7 @@ namespace NeoFS.API.v2.Accounting {
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::NeoFS.API.v2.Accounting.Decimal), global::NeoFS.API.v2.Accounting.Decimal.Parser, new[]{ "Value", "Precision" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::EpicChainAPI.v2.Accounting.Decimal), global::EpicChainAPI.v2.Accounting.Decimal.Parser, new[]{ "Value", "Precision" }, null, null, null, null)
           }));
     }
     #endregion
@@ -56,7 +56,7 @@ namespace NeoFS.API.v2.Accounting {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::NeoFS.API.v2.Accounting.TypesReflection.Descriptor.MessageTypes[0]; }
+      get { return global::EpicChainAPI.v2.Accounting.TypesReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Akka;
 
-namespace NeoFS.API.v2.Netmap
+namespace EpicChainAPI.v2.Netmap
 {
     public partial class Context
     {

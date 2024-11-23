@@ -1,9 +1,9 @@
-using NeoFS.API.v2.Refs;
-using static NeoFS.API.v2.Object.SearchRequest.Types.Body.Types;
+using EpicChainAPI.v2.Refs;
+using static EpicChainAPI.v2.Object.SearchRequest.Types.Body.Types;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace NeoFS.API.v2.Object
+namespace EpicChainAPI.v2.Object
 {
     public class SearchFilters
     {

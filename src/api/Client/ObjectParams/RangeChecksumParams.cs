@@ -1,8 +1,8 @@
-using NeoFS.API.v2.Object;
-using NeoFS.API.v2.Refs;
+using EpicChainAPI.v2.Object;
+using EpicChainAPI.v2.Refs;
 using System.Collections.Generic;
 
-namespace NeoFS.API.v2.Client.ObjectParams
+namespace EpicChainAPI.v2.Client.ObjectParams
 {
     public class RangeChecksumParams
     {

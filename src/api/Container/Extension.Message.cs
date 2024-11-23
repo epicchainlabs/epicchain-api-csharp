@@ -1,7 +1,7 @@
 using Google.Protobuf;
-using NeoFS.API.v2.Session;
+using EpicChainAPI.v2.Session;
 
-namespace NeoFS.API.v2.Container
+namespace EpicChainAPI.v2.Container
 {
     public partial class GetRequest : IRequest
     {

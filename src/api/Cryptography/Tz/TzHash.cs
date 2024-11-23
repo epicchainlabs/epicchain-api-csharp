@@ -5,7 +5,7 @@ using System.Security;
 using System.Security.Cryptography;
 using System.Threading.Tasks;
 
-namespace NeoFS.API.v2.Cryptography.Tz
+namespace EpicChainAPI.v2.Cryptography.Tz
 {
     public class TzHash : HashAlgorithm
     {

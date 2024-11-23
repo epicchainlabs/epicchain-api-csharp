@@ -1,10 +1,10 @@
 using Google.Protobuf;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Neo;
-using NeoFS.API.v2.Cryptography;
+using EpicChainAPI.v2.Cryptography;
 using System;
 
-namespace NeoFS.API.v2.UnitTests.TestCryptography
+namespace EpicChainAPI.v2.UnitTests.TestCryptography
 {
     [TestClass]
     public class UT_Key

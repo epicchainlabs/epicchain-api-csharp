@@ -1,10 +1,10 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using NeoFS.API.v2.Refs;
-using NeoFS.API.v2.Object;
-using static NeoFS.API.v2.Object.SearchRequest.Types.Body.Types;
+using EpicChainAPI.v2.Refs;
+using EpicChainAPI.v2.Object;
+using static EpicChainAPI.v2.Object.SearchRequest.Types.Body.Types;
 using System;
 
-namespace NeoFS.API.v2.UnitTests.TestObject
+namespace EpicChainAPI.v2.UnitTests.TestObject
 {
     [TestClass]
     public class UT_Search

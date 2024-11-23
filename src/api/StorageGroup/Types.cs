@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace NeoFS.API.v2.StorageGroup {
+namespace EpicChainAPI.v2.StorageGroup {
 
   /// <summary>Holder for reflection information generated from storagegroup/types.proto</summary>
   public static partial class TypesReflection {
@@ -34,9 +34,9 @@ namespace NeoFS.API.v2.StorageGroup {
             "Y2MtZGV2L25lb2ZzLWFwaS1nby92Mi9zdG9yYWdlZ3JvdXAvZ3JwYztzdG9y",
             "YWdlZ3JvdXCqAhlOZW9GUy5BUEkudjIuU3RvcmFnZUdyb3VwYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::NeoFS.API.v2.Refs.TypesReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::EpicChainAPI.v2.Refs.TypesReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::NeoFS.API.v2.StorageGroup.StorageGroup), global::NeoFS.API.v2.StorageGroup.StorageGroup.Parser, new[]{ "ValidationDataSize", "ValidationHash", "ExpirationEpoch", "Members" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::EpicChainAPI.v2.StorageGroup.StorageGroup), global::EpicChainAPI.v2.StorageGroup.StorageGroup.Parser, new[]{ "ValidationDataSize", "ValidationHash", "ExpirationEpoch", "Members" }, null, null, null, null)
           }));
     }
     #endregion
@@ -57,7 +57,7 @@ namespace NeoFS.API.v2.StorageGroup {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::NeoFS.API.v2.StorageGroup.TypesReflection.Descriptor.MessageTypes[0]; }
+      get { return global::EpicChainAPI.v2.StorageGroup.TypesReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -102,14 +102,14 @@ namespace NeoFS.API.v2.StorageGroup {
 
     /// <summary>Field number for the "validation_hash" field.</summary>
     public const int ValidationHashFieldNumber = 2;
-    private global::NeoFS.API.v2.Refs.Checksum validationHash_;
+    private global::EpicChainAPI.v2.Refs.Checksum validationHash_;
     /// <summary>
     /// Homomorphic hash from the concatenation of the payloads of the storage
     /// group members. The order of concatenation is the same as the order of the
     /// members in the `members` field.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::NeoFS.API.v2.Refs.Checksum ValidationHash {
+    public global::EpicChainAPI.v2.Refs.Checksum ValidationHash {
       get { return validationHash_; }
       set {
         validationHash_ = value;
@@ -132,14 +132,14 @@ namespace NeoFS.API.v2.StorageGroup {
 
     /// <summary>Field number for the "members" field.</summary>
     public const int MembersFieldNumber = 4;
-    private static readonly pb::FieldCodec<global::NeoFS.API.v2.Refs.ObjectID> _repeated_members_codec
-        = pb::FieldCodec.ForMessage(34, global::NeoFS.API.v2.Refs.ObjectID.Parser);
-    private readonly pbc::RepeatedField<global::NeoFS.API.v2.Refs.ObjectID> members_ = new pbc::RepeatedField<global::NeoFS.API.v2.Refs.ObjectID>();
+    private static readonly pb::FieldCodec<global::EpicChainAPI.v2.Refs.ObjectID> _repeated_members_codec
+        = pb::FieldCodec.ForMessage(34, global::EpicChainAPI.v2.Refs.ObjectID.Parser);
+    private readonly pbc::RepeatedField<global::EpicChainAPI.v2.Refs.ObjectID> members_ = new pbc::RepeatedField<global::EpicChainAPI.v2.Refs.ObjectID>();
     /// <summary>
     /// Strictly ordered list of storage group member objects
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::NeoFS.API.v2.Refs.ObjectID> Members {
+    public pbc::RepeatedField<global::EpicChainAPI.v2.Refs.ObjectID> Members {
       get { return members_; }
     }
 
@@ -230,7 +230,7 @@ namespace NeoFS.API.v2.StorageGroup {
       }
       if (other.validationHash_ != null) {
         if (validationHash_ == null) {
-          ValidationHash = new global::NeoFS.API.v2.Refs.Checksum();
+          ValidationHash = new global::EpicChainAPI.v2.Refs.Checksum();
         }
         ValidationHash.MergeFrom(other.ValidationHash);
       }
@@ -255,7 +255,7 @@ namespace NeoFS.API.v2.StorageGroup {
           }
           case 18: {
             if (validationHash_ == null) {
-              ValidationHash = new global::NeoFS.API.v2.Refs.Checksum();
+              ValidationHash = new global::EpicChainAPI.v2.Refs.Checksum();
             }
             input.ReadMessage(ValidationHash);
             break;

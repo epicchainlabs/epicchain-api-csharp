@@ -1,9 +1,9 @@
-using NeoFS.API.v2.Cryptography;
-using NeoFS.API.v2.Netmap;
+using EpicChainAPI.v2.Cryptography;
+using EpicChainAPI.v2.Netmap;
 using System;
 using System.Threading;
 
-namespace NeoFS.API.v2.Client
+namespace EpicChainAPI.v2.Client
 {
     public partial class Client
     {

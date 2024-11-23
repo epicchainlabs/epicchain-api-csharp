@@ -1,8 +1,8 @@
-using NeoFS.API.v2.Acl;
-using NeoFS.API.v2.Session;
-using NeoFS.API.v2.Refs;
+using EpicChainAPI.v2.Acl;
+using EpicChainAPI.v2.Session;
+using EpicChainAPI.v2.Refs;
 
-namespace NeoFS.API.v2.Client
+namespace EpicChainAPI.v2.Client
 {
     public class CallOptions
     {

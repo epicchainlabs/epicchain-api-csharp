@@ -1,9 +1,9 @@
-using NeoFS.API.v2.Netmap.Aggregator;
-using NeoFS.API.v2.Cryptography;
+using EpicChainAPI.v2.Netmap.Aggregator;
+using EpicChainAPI.v2.Cryptography;
 using System;
 using System.Collections.Generic;
 
-namespace NeoFS.API.v2.Netmap
+namespace EpicChainAPI.v2.Netmap
 {
     public partial class Context
     {

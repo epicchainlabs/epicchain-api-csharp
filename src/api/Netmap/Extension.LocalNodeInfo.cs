@@ -1,7 +1,7 @@
 ﻿using Google.Protobuf;
-using NeoFS.API.v2.Session;
+using EpicChainAPI.v2.Session;
 
-namespace NeoFS.API.v2.Netmap
+namespace EpicChainAPI.v2.Netmap
 {
     public partial class LocalNodeInfoRequest : IRequest
     {

@@ -1,6 +1,6 @@
-using NeoFS.API.v2.Refs;
+using EpicChainAPI.v2.Refs;
 
-namespace NeoFS.API.v2.Session
+namespace EpicChainAPI.v2.Session
 {
     public partial class ResponseMetaHeader
     {

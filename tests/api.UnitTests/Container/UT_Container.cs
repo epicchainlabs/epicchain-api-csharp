@@ -1,13 +1,13 @@
 using Google.Protobuf;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Neo;
-using NeoFS.API.v2.Cryptography;
-using NeoFS.API.v2.Container;
-using NeoFS.API.v2.Netmap;
-using NeoFS.API.v2.Refs;
+using EpicChainAPI.v2.Cryptography;
+using EpicChainAPI.v2.Container;
+using EpicChainAPI.v2.Netmap;
+using EpicChainAPI.v2.Refs;
 using System;
 
-namespace NeoFS.API.v2.UnitTests.TestContainer
+namespace EpicChainAPI.v2.UnitTests.TestContainer
 {
     [TestClass]
     public class UT_Container

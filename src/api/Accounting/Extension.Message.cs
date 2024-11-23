@@ -1,7 +1,7 @@
 ﻿using Google.Protobuf;
-using NeoFS.API.v2.Session;
+using EpicChainAPI.v2.Session;
 
-namespace NeoFS.API.v2.Accounting
+namespace EpicChainAPI.v2.Accounting
 {
     public partial class BalanceRequest : IRequest
     {

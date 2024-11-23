@@ -1,5 +1,5 @@
 
-namespace NeoFS.API.v2.Netmap.Normalize
+namespace EpicChainAPI.v2.Netmap.Normalize
 {
     public interface INormalizer
     {

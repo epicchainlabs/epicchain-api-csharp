@@ -1,9 +1,9 @@
 using Google.Protobuf;
 using EpicChain.Cryptography;
-using NeoFS.API.v2.Cryptography;
+using EpicChainAPI.v2.Cryptography;
 using System;
 
-namespace NeoFS.API.v2.Refs
+namespace EpicChainAPI.v2.Refs
 {
     public partial class ObjectID
     {

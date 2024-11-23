@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using NeoFS.API.v2.Cryptography;
+using EpicChainAPI.v2.Cryptography;
 
-namespace NeoFS.API.v2.Netmap
+namespace EpicChainAPI.v2.Netmap
 {
     public class NetMap
     {

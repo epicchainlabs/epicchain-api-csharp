@@ -1,8 +1,8 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using NeoFS.API.v2.Cryptography;
+using EpicChainAPI.v2.Cryptography;
 using System;
 
-namespace NeoFS.API.v2.UnitTests.FSClient
+namespace EpicChainAPI.v2.UnitTests.FSClient
 {
     [TestClass]
     public class UT_Accounting

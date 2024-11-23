@@ -1,13 +1,13 @@
 using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using NeoFS.API.v2.Cryptography;
+using EpicChainAPI.v2.Cryptography;
 using System.Security.Cryptography;
-using NeoFS.API.v2.Accounting;
-using NeoFS.API.v2.Session;
-using NeoFS.API.v2.Refs;
+using EpicChainAPI.v2.Accounting;
+using EpicChainAPI.v2.Session;
+using EpicChainAPI.v2.Refs;
 using Neo;
 
-namespace NeoFS.API.v2.UnitTests.TestCryptography
+namespace EpicChainAPI.v2.UnitTests.TestCryptography
 {
     [TestClass]
     public class UT_Sign

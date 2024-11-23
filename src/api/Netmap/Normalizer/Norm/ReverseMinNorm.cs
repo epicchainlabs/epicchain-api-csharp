@@ -1,6 +1,6 @@
 
 
-namespace NeoFS.API.v2.Netmap.Normalize
+namespace EpicChainAPI.v2.Netmap.Normalize
 {
     public class ReverseMinNorm : INormalizer
     {

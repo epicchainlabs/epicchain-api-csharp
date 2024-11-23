@@ -1,6 +1,6 @@
 ﻿using Google.Protobuf;
 
-namespace NeoFS.API.v2.Session
+namespace EpicChainAPI.v2.Session
 {
     public partial class CreateResponse : IResponse
     {

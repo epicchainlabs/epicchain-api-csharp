@@ -1,14 +1,14 @@
-using NeoFS.API.v2.Acl;
-using NeoFS.API.v2.Container;
-using NeoFS.API.v2.Cryptography;
-using NeoFS.API.v2.Refs;
+using EpicChainAPI.v2.Acl;
+using EpicChainAPI.v2.Container;
+using EpicChainAPI.v2.Cryptography;
+using EpicChainAPI.v2.Refs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
-using UsedSpaceAnnouncement = NeoFS.API.v2.Container.AnnounceUsedSpaceRequest.Types.Body.Types.Announcement;
+using UsedSpaceAnnouncement = EpicChainAPI.v2.Container.AnnounceUsedSpaceRequest.Types.Body.Types.Announcement;
 
-namespace NeoFS.API.v2.Client
+namespace EpicChainAPI.v2.Client
 {
     public partial class Client
     {

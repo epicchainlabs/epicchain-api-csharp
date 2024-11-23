@@ -1,10 +1,10 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using NeoFS.API.v2.Cryptography.Tz;
+using EpicChainAPI.v2.Cryptography.Tz;
 using System;
 using System.Linq;
 using System.Security.Cryptography;
 
-namespace NeoFS.API.v2.UnitTests.TestCryptography.Tz
+namespace EpicChainAPI.v2.UnitTests.TestCryptography.Tz
 {
     [TestClass]
     public class UT_TzHash

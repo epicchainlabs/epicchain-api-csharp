@@ -1,7 +1,7 @@
-using NeoFS.API.v2.Session;
+using EpicChainAPI.v2.Session;
 using Google.Protobuf;
 
-namespace NeoFS.API.v2.Session
+namespace EpicChainAPI.v2.Session
 {
     public interface IRequestMeta
     {
