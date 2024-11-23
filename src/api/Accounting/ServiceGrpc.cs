@@ -17,7 +17,7 @@ namespace NeoFS.API.v2.Accounting {
   /// </summary>
   public static partial class AccountingService
   {
-    static readonly string __ServiceName = "neo.fs.v2.accounting.AccountingService";
+    static readonly string __ServiceName = "EpicChain.fs.v2.accounting.AccountingService";
 
     static readonly grpc::Marshaller<global::NeoFS.API.v2.Accounting.BalanceRequest> __Marshaller_neo_fs_v2_accounting_BalanceRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::NeoFS.API.v2.Accounting.BalanceRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::NeoFS.API.v2.Accounting.BalanceResponse> __Marshaller_neo_fs_v2_accounting_BalanceResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::NeoFS.API.v2.Accounting.BalanceResponse.Parser.ParseFrom);

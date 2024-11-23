@@ -16,7 +16,7 @@ namespace NeoFS.API.v2.Container {
   /// </summary>
   public static partial class ContainerService
   {
-    static readonly string __ServiceName = "neo.fs.v2.container.ContainerService";
+    static readonly string __ServiceName = "EpicChain.fs.v2.container.ContainerService";
 
     static readonly grpc::Marshaller<global::NeoFS.API.v2.Container.PutRequest> __Marshaller_neo_fs_v2_container_PutRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::NeoFS.API.v2.Container.PutRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::NeoFS.API.v2.Container.PutResponse> __Marshaller_neo_fs_v2_container_PutResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::NeoFS.API.v2.Container.PutResponse.Parser.ParseFrom);

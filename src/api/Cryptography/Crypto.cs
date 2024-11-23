@@ -1,5 +1,5 @@
 using Google.Protobuf;
-using Neo.Cryptography;
+using EpicChain.Cryptography;
 using NeoFS.API.v2.Refs;
 using System.Buffers.Binary;
 

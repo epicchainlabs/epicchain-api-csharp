@@ -16,7 +16,7 @@ namespace NeoFS.API.v2.Netmap {
   /// </summary>
   public static partial class NetmapService
   {
-    static readonly string __ServiceName = "neo.fs.v2.netmap.NetmapService";
+    static readonly string __ServiceName = "EpicChain.fs.v2.netmap.NetmapService";
 
     static readonly grpc::Marshaller<global::NeoFS.API.v2.Netmap.LocalNodeInfoRequest> __Marshaller_neo_fs_v2_netmap_LocalNodeInfoRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::NeoFS.API.v2.Netmap.LocalNodeInfoRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::NeoFS.API.v2.Netmap.LocalNodeInfoResponse> __Marshaller_neo_fs_v2_netmap_LocalNodeInfoResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::NeoFS.API.v2.Netmap.LocalNodeInfoResponse.Parser.ParseFrom);

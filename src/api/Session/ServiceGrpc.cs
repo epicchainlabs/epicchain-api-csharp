@@ -16,7 +16,7 @@ namespace NeoFS.API.v2.Session {
   /// </summary>
   public static partial class SessionService
   {
-    static readonly string __ServiceName = "neo.fs.v2.session.SessionService";
+    static readonly string __ServiceName = "EpicChain.fs.v2.session.SessionService";
 
     static readonly grpc::Marshaller<global::NeoFS.API.v2.Session.CreateRequest> __Marshaller_neo_fs_v2_session_CreateRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::NeoFS.API.v2.Session.CreateRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::NeoFS.API.v2.Session.CreateResponse> __Marshaller_neo_fs_v2_session_CreateResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::NeoFS.API.v2.Session.CreateResponse.Parser.ParseFrom);

@@ -6,9 +6,9 @@ using Neo;
 using NeoFS.API.v2.Refs;
 using System.Security.Cryptography;
 using Google.Protobuf;
-using Neo.SmartContract;
-using Neo.Wallets;
-using Neo.Cryptography;
+using EpicChain.SmartContract;
+using EpicChain.Wallets;
+using EpicChain.Cryptography;
 
 namespace NeoFS.API.v2.Cryptography
 {
@@ -40,8 +40,8 @@ namespace NeoFS.API.v2.Cryptography
 
         public static string PublicKeyToAddress(this byte[] public_key)
         {
-            Neo.Cryptography.ECC.ECCurve curve = Neo.Cryptography.ECC.ECCurve.Secp256r1;
-            var public_key_point = Neo.Cryptography.ECC.ECPoint.DecodePoint(public_key, curve);
+            EpicChain.Cryptography.ECC.ECCurve curve = EpicChain.Cryptography.ECC.ECCurve.Secp256r1;
+            var public_key_point = EpicChain.Cryptography.ECC.ECPoint.DecodePoint(public_key, curve);
             var contract = Contract.CreateSignatureContract(public_key_point);
             return contract.ScriptHash.ToAddress();
         }
@@ -102,7 +102,7 @@ namespace NeoFS.API.v2.Cryptography
 
         private static byte[] DecodePublicKey(this byte[] public_key)
         {
-            return Neo.Cryptography.ECC.ECPoint.DecodePoint(public_key, Neo.Cryptography.ECC.ECCurve.Secp256r1).EncodePoint(false)[1..];
+            return EpicChain.Cryptography.ECC.ECPoint.DecodePoint(public_key, EpicChain.Cryptography.ECC.ECCurve.Secp256r1).EncodePoint(false)[1..];
         }
 
         public static ECDsa LoadPublicKey(this byte[] public_key)

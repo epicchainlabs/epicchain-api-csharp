@@ -14,7 +14,7 @@ namespace NeoFS.API.v2.Object {
   /// </summary>
   public static partial class ObjectService
   {
-    static readonly string __ServiceName = "neo.fs.v2.object.ObjectService";
+    static readonly string __ServiceName = "EpicChain.fs.v2.object.ObjectService";
 
     static readonly grpc::Marshaller<global::NeoFS.API.v2.Object.GetRequest> __Marshaller_neo_fs_v2_object_GetRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::NeoFS.API.v2.Object.GetRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::NeoFS.API.v2.Object.GetResponse> __Marshaller_neo_fs_v2_object_GetResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::NeoFS.API.v2.Object.GetResponse.Parser.ParseFrom);

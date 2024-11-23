@@ -1,7 +1,7 @@
 using Google.Protobuf;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Neo;
-using Neo.Cryptography;
+using EpicChain.Cryptography;
 using NeoFS.API.v2.Client;
 using NeoFS.API.v2.Client.ObjectParams;
 using NeoFS.API.v2.Cryptography;

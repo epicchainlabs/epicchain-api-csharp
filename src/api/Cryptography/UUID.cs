@@ -1,7 +1,7 @@
 ﻿using System;
 using Google.Protobuf;
 using Neo;
-using Neo.Cryptography;
+using EpicChain.Cryptography;
 
 namespace NeoFS.API.v2.Cryptography
 {
